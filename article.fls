@@ -252,8 +252,8 @@ INPUT ./article.lot
 INPUT ./article.lot
 INPUT article.lot
 OUTPUT article.lot
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT ./chapters/1/intro.tex
 INPUT ./chapters/1/intro.tex
 INPUT chapters/1/intro.tex
