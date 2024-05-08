@@ -1,0 +1,172 @@
+\documentclass[11pt,jaso]{pnumasterh}
+%\documentclass[11pt,a4paper]{pnumasterh}
+\usepackage[ruled,linesnumbered,vlined]{algorithm2e}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{color,fancyvrb,alltt}
+\usepackage{listings, chngcntr}
+\usepackage{colortbl, booktabs}
+\usepackage[subfigure]{tocloft}
+\usepackage{threeparttable}
+\usepackage{verbatimbox}
+\usepackage{indentfirst}
+\usepackage{algorithmic}
+\usepackage{subfigure}
+\usepackage{longtable}
+\usepackage{textcomp}
+\usepackage{floatrow}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{multirow}
+\usepackage{csquotes}
+\usepackage{setspace}
+\usepackage{fancyvrb}
+\usepackage{geometry}
+\usepackage{sidecap}
+\usepackage{caption}
+\usepackage{courier}
+\usepackage{amsmath}
+\usepackage{courier}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{epsfig}
+\usepackage{hhline}
+\usepackage{kotex}
+\usepackage{float}
+\usepackage{array}     
+\usepackage{color}
+\usepackage{xfrac}
+\usepackage{url}
+
+\definecolor{mygreen}{rgb}{0   , 0.6, 0   }
+\definecolor{mygray }{rgb}{0.5 , 0.5, 0.5 }
+\definecolor{mymauve}{rgb}{0.58, 0  , 0.82}
+\renewcommand\lstlistingname{Algorithm}
+\floatsetup[table]{capposition=top}
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\definecolor{Gray}{gray}{0.9}
+
+\urlstyle{same}
+\definecolor{red}{rgb}{1, 0, 0}
+
+\floatstyle{ruled}
+\newfloat{algorithm}{htp}{loa}
+\floatname{algorithm}{a}
+
+\newfloat{mybox}{htp}{lob}
+\newcommand{\DRule}{\rule[4pt]{\linewidth}{0.5mm}}
+\newcommand{\SRule}{\rule[4pt]{\linewidth}{0.1mm}}
+
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newtheorem{definition}{정의}[subsection]
+\newtheorem{example}{예제}[subsection]
+\newtheorem{theorem}{정리}[subsection]
+
+\newcommand{\abs}[1]{\lvert #1 \rvert}
+\newenvironment{smalltt}{\scriptsize\begin{alltt}}{\end{alltt}\normalsize}
+
+\DeclareCaptionFormat{mylst}{\hrule#1#2#3}
+
+\newenvironment{CVerbatim}
+	{\singlespacing\center\BVerbatim}
+	{\endBVerbatim\endcenter}
+
+\htitle{\huge \vspace{-5mm} Comparative Analysis of Cross-Platform and Native Mobile App Development Approaches \vspace{-5mm}}
+\title{Comparative Analysis of Cross-Platform and Native Mobile App Development Approaches}
+\hauthor{ Ibrokhimov Sardorbek Rustam Ugli}
+\author{Ibrokhimov Sardorbek Rustam Ugli}
+
+\etitle{\huge 교차 플랫폼 및 네이티브 모바일 앱 개발 접근 방식의 비교 분석 } 
+\eauthor{이브로키모브 사도르벡}
+\edept{정 보 융 합 공 학 과} 
+\hdept{Department of Information Convergence Engineering}
+\huniv{Pusan National University} 
+\euniv{부 산 대 학 교}
+
+\hdegree{Thesis for the degree of Master of Science} \degree{Thesis for the degree of Master of Science}
+
+\htutor{Gyun Woo}
+
+
+\principaladvisor{Hwan-Gue Cho} \subadva{Heung-Seok Chae}
+\subadvb{Gyun Woo}
+
+\graddate{August 2024}
+
+\submitdate{May 31, 2024}
+
+\begin{document}
+\maketitle 
+\pagestyle{empty}
+
+\newpage
+\pagestyle{plain} \pagenumbering{roman}
+
+\setlength\cftsecnumwidth{2.3em}
+
+\tableofcontents
+\newpage
+\listoffigures 
+\newpage
+\listoftables 
+
+
+\newpage
+\thispagestyle{empty}
+\begin{center}
+    \vskip 3.5cm
+    {\Large{Comparative Analysis of Cross-Platform and Native Mobile App Development Approaches}} \\
+    \vskip 15mm
+    {\large{Ibrokhimov Sardorbek Rustam Ugli}} \\
+    \vskip 10mm
+    {Department of Information Convergence Engineering} \\
+    {The Graduate School} \\
+    {Pusan National University} \\
+    \vskip 15mm
+    {\large{Abstract}}\\
+    \vskip 10 mm
+\end{center}
+
+Though lots of approaches to developing mobile apps have been suggested up to now, developers have difficulties selecting the right one. This study compares native and cross-platform application development approaches, particularly focusing on the shift in preference from Java to Kotlin and the increasing use of Flutter. This research offers practical insights into factors influencing developers’ choice of programming languages and frameworks in mobile application development by creating identical applications using Java, Kotlin, and Dart (Flutter). Furthermore, this study explores the best practices for development by examining the quality of code in 45 open-source GitHub repositories. The study evaluates LOC and code smells using semi-automated SonarQube assessments to determine the effects of selecting a specific language or framework on code maintainability and development efficiency. Preliminary findings show differences in the quality of the code produced by the two approaches, offering developers useful information on how to best optimize language and framework selection to reduce code smells and improve project maintainability.    
+\newpage
+\pagenumbering{arabic}
+
+\section{Introduction}
+\input{chapters/1/intro.tex}
+\clearpage
+
+\section{Literature Review} \label{literature_review}
+\input{chapters/litereture-review/ltr.tex}
+\clearpage
+
+\section{Methodology}
+\clearpage
+
+% \section{Experimental Results}  \label{exp-results}
+% \input{chapters/6/exp-results.tex}
+% \clearpage
+
+
+\nocite{*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{unsrturl}
+\bibliography{article}
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\section*{Appendices}
+\input{chapters/6/appendix.tex}
+\clearpage
+
+\begin{eabstract}
+환치기는 전통적이고 비공식적인 자금 이전 시스템으로, 자금세탁과 같은 목적으로 전 세계 여러 지역에서 널리 사용되고 있다. 금융 기관들이 취한 규제 조치에도 불구하고, 환치기는 여전히 테러 자금 조달 계획에서 주요한 노드이다. 그리고 그의 남용 정도는 알려지지 않았다. 환치기의 은닉 거래와 제한된 지식으로 인해 각 국가의 법적 단속기관들은 환치기를 감지하고 규제하기 어렵다. 본 논문은 그래프 마이닝 기법을 사용하여 금융 거래 데이터의 흐름에서 잠재적인 환치기 사례를 탐지하기 위한 새로운 접근 방법을 제시한다. 환치기의 특성을 반영하기 위해 제안된 프레임워크는 중심성과 이상 탐지와 같은 그래프 신경망을 이용한 그래프 마이닝 방법을 채택한다. 실험 결과, 제안된 방법은 환치기를 탐지하는 데 의미 있는 결과를 제공하며 기존 거래 모니터링 트랙에 보완적인 도구로 사용될 수 있음을 보여준다.	
+\end{eabstract}
+
+%\newpage
+%\begin{thankpage}
+%\input{thesis/thanks}
+%\end{thankpage}
+
+\end{document}

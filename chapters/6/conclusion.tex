@@ -1,0 +1,25 @@
+This paper has presented a framework for suspicious bank account detection, with the purpose of detecting possible Hawala activities. The proposed framework can be summarized as follows:
+\begin{enumerate}
+    \item Given bank transaction data, build the transaction graph, where nodes are accounts and edges are bank operations between bank accounts.
+    \item Compute the HR rank of each node in the graph using the specified Hawala characteristics. 
+    \item Compute the AR rank of each node in the graph by applying an unsupervised anomaly detection technique.
+    \item The computed HR and AR ranks are provided as a final output to the banking expert for further investigation.
+\end{enumerate}
+
+The HR and AR modules both performed well on the Berka dataset within their respective scopes. The HR module had a lower false positive rate compared to the AR module. However, considering that the AR module uses unsupervised learning, it still demonstrated good performance. Surprisingly, the best outcome was obtained by intersecting the results of both rank modules. This not only reduces the number of bank accounts that require further investigation but also yields a lower false positives rate.
+
+In conclusion, the proposed framework can be a valuable aid to bank experts and improve their operational efficiency. However, it should be viewed as a complement to existing systems rather than a replacement. This paper highlights the significance of raising awareness about Hawala and its connection to money laundering and terrorist financing. More work should be dedicated to the research and development of the Hawala detection system, as well as its validation on larger datasets, ideally on real datasets.
+
+% 본 논문에서는 C\# .NET 프레임워크의 난독화 도구를 자동으로 분류하는 시스템을 설계하고 구현하였다. 제안 시스템은 난독화된 프로그램의 특징으로 API 서열을 가지고 서열 분석을 통해 난독화 도구를 분류하였다. API 서열 추출에는 Detours를 사용했을 때 유사도 검사 활용에 적절한 것으로 나타났다. 추출된 API는 크기가 크기 때문에 패턴을 제거하여 최적화를 진행하여 API 서열을 생성한다. 유사도 검사는 악성 코드 분류나 프로그램 표절 검사에서 많이 사용하는 지역 정렬로 유사도를 구하였다. 지역 정렬은 프로그램 유사도 검사에도 활용되고 있어서 프로그램 분류에 효과적이다.
+
+% C\# 난독화 해제 도구인 de4dot은 난독화 도구를 탐지할 수 있다. 하지만 난독화 도구 탐지에 문제가 있으며 난독화 도구를 모두 탐지하지 못하고 난독화 회피 기법이 적용된 프로그램은 de4dot에서 난독화 도구를 제대로 탐지할 수 없다. 또한, 기존의 API 추출 방법으로는 .NET 프레임워크의 프로그램을 API를 추출할 수 없다. 그래서 Pin 툴과 Detours를 비교하여 제안 시스템에 적합한 도구인 Detours로 API를 추출하였다.
+
+% 앞선 문제를 해결하기 위해 제안 시스템의 성능 평가로 세 가지 실험을 진행하였다. 첫 번째는 API 추출 도구 비교이며 두 번째는 단일 난독화 프로그램 분류 비교이다. 마지막 실험은 난독화 회피 기법이 적용된 프로그램의 분류 비교이다. 첫 번째 실험에서 Pin 툴보다 Detours에서 추출한 API 서열이 적합하며 유사도 검사에 활용할 수 있었다. 두 번째 실험에서는 5개의 프로그램에 7개의 난독화 도구를 적용하여 분류를 진행하였다. 실험 결과 de4dot에서 탐지할 수 없는 ConfuserEx, ILProtector 도구는 모든 난독화 프로그램을 탐지했으며 Spices.NET 이외의 난독화 도구는 1개 프로그램을 제외하고 분류하였다. 정확성은 de4dot은 42.8\%, 제안 시스템은 78.5\%를 나타내었다. 세 번째 실험에서는 Crypto Obfuscator 난독화 회피 기술이 적용된 5개의 프로그램을 모두 분류하였다. 
+
+
+
+% 첫 번째 실험에서 Pin 툴로 API를 추출하면 API 크기가 너무 커 유사도 검사를 진행할 수 없는 문제가 있으며 전체 API 서열을 검사할 수 없다. 두 번째 실험에서 Spices.NET의 경우 3개 프로그램이 SmartAssembly로 분류하였는데 이는 Spices.NET과 SmartAssembly 난독화 기법으로 인한 차이로 판단된다. 난독화 기법 중 어트리뷰트 제거 등으로 난독화된 프로그램이 서로 비슷한 특징을 가졌기 때문이다. 세 번째 실험에서 de4dot의 취약점으로 판단되는 난독화 회피 기법은 제안 시스템으로 보완할 수 있다. de4dot은 특정 난독화 도구의 문자열이나 압축 알고리즘의 패턴을 보고 식별하지만, 제안 시스템은 프로그램 고유의 특징으로 분류하기 때문이다. 따라서 제안 시스템으로 프로그램에 적용된 난독화 도구를 분류하여 프로그램 분석에 효과가 있을 것으로 생각된다. 
+
+
+% 향후 연구로는 API 기반의 난독화 도구 분류 방법의 성능을 향상시키는 연구가 더 필요하다. 제안 시스템으로 API 서열 기반 분류 방법이 효과적임을 알 수 있지만, 일부 난독화 도구의 경우 분류가 잘 이루어지지 않는 문제가 있다. 이를 보완하기 위해 프로그램 특징에 대한 연구가 필요할 것으로 생각된다.
+

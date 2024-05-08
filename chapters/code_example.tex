@@ -1,0 +1,44 @@
+%Code---------------------
+\definecolor{listingcolor}{gray}{1} % 아직 뭔지 잘 모름
+\captionsetup[lstlisting]{format=mylst, labelfont=bf, singlelinecheck=off} % 되도록 건들지마
+\counterwithin{lstlisting}{section}
+\renewcommand{\thelstlisting}{\arabic{section}.\arabic{lstlisting}}
+
+\lstset{
+	language			= python,	%언어
+	basicstyle			= \ttfamily\footnotesize,
+	showspaces			= false,
+	showstringspaces	= false,
+	extendedchars		= true,
+	upquote				= true,
+	backgroundcolor=\color{white},   % choose the background color
+	breaklines=true,                 % automatic line breaking only at whitespace
+	commentstyle=\color{mygreen},    % comment style
+	escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+	keywordstyle=\color{blue},       % keyword style
+	stringstyle=\color{mymauve},     % string literal style
+}
+%-------------------------
+\begin{lstlisting}[
+	caption				= 개선된 Mu-에디터 화면 구성 코드,	% 여기에는 '_'쓸 거면 '\_'로
+	label				= muapp,          % 여기에는 '_'쓸 거면  '_'로
+	xleftmargin			= 20pt,
+	framexleftmargin	= 20pt,
+	tabsize				= 4,
+	breaklines			= true,
+	breakautoindent		= true,
+	postbreak			= \space,
+%	backgroundcolor		= \color{listingcolor}, 
+	frame		= tb,
+	numbers		= left,		% 이 밑으론 줄 번호 설정
+	stepnumber	= 1,
+	numbersep	= 5pt,
+	numberstyle	= \tiny,
+	escapeinside = ~~
+	]%--------------------여기부터 코드(한 줄 Enter 필수)
+		
+button_bar.connect(u"~새 프로그램~", editor.new)
+button_bar.connect(u"~불러오기~", editor.load)
+button_bar.connect(u"~저장하기~", editor.save)
+\end{lstlisting}
+%-------------------------

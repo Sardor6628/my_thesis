@@ -1,0 +1,60 @@
+%% -*- TeX -*-
+%%
+%% This is `hfont.sty written by zraun01@hpserv.zdv.uni-tuebingen.de.
+%%
+%% This file serves as a package for processing Hangul fonts without any
+%% features of Korean document.
+%%
+
+\NeedsTeXFormat{LaTeX2e}
+\def\filedate{1996/04/04}
+\def\fileversion{0.95}
+\def\filename{hfont.sty}
+
+\typeout{Hangul/Hanja Font package '\filename' <\filedate>}
+
+% option "hanja"는 단원의 이름들을 한자로 표시합니다.
+%
+% 이 option의 지정은 다음과 같이 합니다.
+%       \documentclass[softbold,...]{...}
+%       \usepackage{hangul,...}
+% 혹은 \documentclass의 다음에
+%       \usepackage[softbold,...]{hangul}
+%
+% option "pshan"은 PostScript 한글 자형을 사용하도록 합니다.
+% option "hardbold"는 이미 만들어진 bfseries 한글 자형을 사용하고,
+% option "softbold"는 bfseries글꼴을 설치하지 않은 상태에서 mdseries
+% 한글 자형을 사용하여 매크로를 통해 bfseries가 만들어지도록 합니다.
+% 이 둘중 아무 것도 지정하지 않으면 "softbold"가 됩니다.
+% option "oldhan"은 한글LaTeX-0.92e까지 사용되던 한글 글꼴로 문서를
+% 작성할 때 필요한 지정변수입니다.
+
+\newif\if@pshan \@pshanfalse
+\newif\if@makebold \@makeboldtrue
+\newif\if@oldhan \@oldhanfalse
+
+\DeclareOption{pshan}{\@pshantrue}
+\DeclareOption{hardbold}{\@makeboldfalse}
+\DeclareOption{softbold}{\@makeboldtrue}
+\DeclareOption{oldhan}{\@oldhantrue}
+
+% 이전의 jhtex사용자들을 위해
+
+\DeclareOption{kssection}{\relax}
+
+\ProcessOptions
+
+% \TeX이 외부의 보조파일에 출력할 때, 한글/漢字/심벌은 있는 그대로
+% 출력되는 것이 유용할 때가 많습니다. 그래서 우리는 여기에 \TeX이
+% 내부에서 처리할 때 필요한 매크로 \makeKSCactive와 \TeX이 외부의
+% 보조파일에 출력할 때 유용한 매크로 \makeKSCother를 정의합니다.
+
+%주석 처리했음(mjbae)
+%\if@oldhan
+ % \input pnuhfontold.tex
+%\else
+ % \input pnuhfont.tex
+%\fi
+%\input pnuhfontold.tex
+
+%% End of `hfont.sty'.
