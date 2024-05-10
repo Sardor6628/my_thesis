@@ -10,46 +10,49 @@ Database file #1: article.bib
 Warning--I didn't find a database entry for "stepanov2022backend"
 Warning--can't use both volume and number fields in rybakovas2022financial
 Warning--empty year in mamunimproving
+Warning--all relevant fields are empty in bloc
+Warning--all relevant fields are empty in getX
+Warning--all relevant fields are empty in provider
 Warning--empty publisher in domgnn
-You've used 51 entries,
+You've used 56 entries,
             2522 wiz_defined-function locations,
-            871 strings with 15726 characters,
-and the built_in function-call counts, 19424 in all, are:
-= -- 1954
-> -- 650
+            892 strings with 16170 characters,
+and the built_in function-call counts, 20418 in all, are:
+= -- 2032
+> -- 663
 < -- 21
-+ -- 211
-- -- 160
-* -- 927
-:= -- 2509
-add.period$ -- 169
-call.type$ -- 51
-change.case$ -- 49
++ -- 218
+- -- 162
+* -- 948
+:= -- 2590
+add.period$ -- 178
+call.type$ -- 56
+change.case$ -- 50
 chr.to.int$ -- 0
-cite$ -- 54
-duplicate$ -- 645
-empty$ -- 2104
-format.name$ -- 160
-if$ -- 5413
+cite$ -- 62
+duplicate$ -- 683
+empty$ -- 2267
+format.name$ -- 162
+if$ -- 5732
 int.to.chr$ -- 0
-int.to.str$ -- 51
-missing$ -- 47
-newline$ -- 264
-num.names$ -- 51
-pop$ -- 381
+int.to.str$ -- 56
+missing$ -- 49
+newline$ -- 283
+num.names$ -- 53
+pop$ -- 430
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1499
+skip$ -- 1619
 stack$ -- 0
 substring$ -- 1038
-swap$ -- 214
+swap$ -- 219
 text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 145
-width$ -- 53
-write$ -- 579
-(There were 4 warnings)
+warning$ -- 6
+while$ -- 147
+width$ -- 58
+write$ -- 614
+(There were 7 warnings)

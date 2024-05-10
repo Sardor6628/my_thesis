@@ -13,3 +13,9 @@
 \contentsline {subsection}{\numberline {2.3}Dart(Flutter)}{14}{}%
 \contentsline {subsection}{\numberline {2.4}Previous Research}{14}{}%
 \contentsline {section}{\numberline {III}Methodology}{24}{}%
+\contentsline {subsection}{\numberline {3.1}Overview}{24}{}%
+\contentsline {subsection}{\numberline {3.2}Identical Mobile Application Development}{25}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Project Planning.}{25}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Flutter Application Development}{27}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Kotlin Application Development}{29}{}%
+\contentsline {subsubsection}{\numberline {3.2.4}Java Application Development}{31}{}%

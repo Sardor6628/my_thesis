@@ -221,6 +221,25 @@ Piotr Nawrocki, Krzysztof Wrona, Mateusz Marczak, and Bartlomiej Sniezynski.
 \newblock A comparison of native and cross-platform frameworks for mobile applications.
 \newblock {\em Computer}, 54(3):18--27, 2021.
 
+\bibitem{bloc}
+URL: \url{https://bloclibrary.dev}.
+
+\bibitem{getX}
+URL: \url{https://chornthorn.github.io/getx-docs/}.
+
+\bibitem{provider}
+URL: \url{https://pub.dev/packages/provider}.
+
+\bibitem{martin2009clean}
+Robert~C Martin.
+\newblock {\em Clean code: a handbook of agile software craftsmanship}.
+\newblock Pearson Education, 2009.
+
+\bibitem{Sewak_2023}
+Jaykishan Sewak.
+\newblock Mvvm architecture in android using kotlin: A practical guide, Jun 2023.
+\newblock URL: \url{https://medium.com/@jecky999/mvvm-architecture-in-android-using-kotlin-a-practical-guide-73f8de1d9c58}.
+
 \bibitem{mltf}
 Tim Krieger and Daniel Meierrieks.
 \newblock Terrorist financing and money laundering.

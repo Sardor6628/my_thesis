@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.3)  8 MAY 2024 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.3)  10 MAY 2024 20:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -867,24 +867,57 @@ File: img/graph_lr.png Graphic file (type png)
 <use img/graph_lr.png>
 Package pdftex.def Info: img/graph_lr.png  used on input line 55.
 (pdftex.def)             Requested size: 375.80452pt x 164.6152pt.
- [19] [20 <./img/graph_lr.png>] [21] [22]) [23] [24
+ [19] [20 <./img/graph_lr.png>] [21] [22]) [23] (./chapters/methodology/methodology.tex [24
 
-] (./article.bbl [25
+] [25]
+<img/kanban_board.png, id=117, 469.755pt x 246.9225pt>
+File: img/kanban_board.png Graphic file (type png)
+<use img/kanban_board.png>
+Package pdftex.def Info: img/kanban_board.png  used on input line 30.
+(pdftex.def)             Requested size: 399.29364pt x 209.88509pt.
+<img/flutter_app_str.png, id=118, 311.1625pt x 608.2725pt>
+File: img/flutter_app_str.png Graphic file (type png)
+<use img/flutter_app_str.png>
+Package pdftex.def Info: img/flutter_app_str.png  used on input line 41.
+(pdftex.def)             Requested size: 248.93034pt x 486.61867pt.
+ [26] [27 <./img/kanban_board.png>] [28 <./img/flutter_app_str.png>]
+<img/kotlin_project_struct.png, id=130, 469.755pt x 427.5975pt>
+File: img/kotlin_project_struct.png Graphic file (type png)
+<use img/kotlin_project_struct.png>
+Package pdftex.def Info: img/kotlin_project_struct.png  used on input line 55.
+(pdftex.def)             Requested size: 375.80452pt x 342.07846pt.
+ [29] [30 <./img/kotlin_project_struct.png>]
+<img/java_project_struct.png, id=139, 469.755pt x 559.08875pt>
+File: img/java_project_struct.png Graphic file (type png)
+<use img/java_project_struct.png>
+Package pdftex.def Info: img/java_project_struct.png  used on input line 69.
+(pdftex.def)             Requested size: 375.80452pt x 447.27159pt.
+ [31] [32 <./img/java_project_struct.png>]) [33] (./article.bbl [34
 
 
-] [26]
+] [35]
 Underfull \hbox (badness 3724) in paragraph at lines 101--104
 []\OT1/cmr/m/n/10.95 Gustavo Pinto, Wes-l-ley Tor-res, Ben-ito Fer-nan-des, Fer-nando Cas-tor, and
  []
 
-[27] [28]
+[36] [37]
 Underfull \hbox (badness 3375) in paragraph at lines 181--184
 []\OT1/cmr/m/n/10.95 Ifeanyi Row-land Onyen-weaku, Michael Scott Brown, Michael Pelosi, and
  []
 
-[29] [30]) [31] (./chapters/6/appendix.tex) [32
+[38] [39]
+Underfull \hbox (badness 10000) in paragraph at lines 239--242
+[]\OT1/cmr/m/n/10.95 Jaykishan Se-wak.  Mvvm ar-chi-tec-ture in an-droid us-ing kotlin: A
+ []
 
-] [33
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--242
+\OT1/cmr/m/n/10.95 prac-ti-cal guide, Jun 2023.  URL: $https : / / medium . com / @jecky999 /
+ []
+
+[40]) [41] (./chapters/6/appendix.tex) [42
+
+] [43
 
 ] (./article.aux)
  ***********
@@ -897,18 +930,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12068 strings out of 474116
- 201584 string characters out of 5743683
- 1935187 words of memory out of 5000000
- 34146 multiletter control sequences out of 15000+600000
+ 12112 strings out of 474116
+ 202850 string characters out of 5743683
+ 1936187 words of memory out of 5000000
+ 34186 multiletter control sequences out of 15000+600000
  588878 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,10n,99p,2376b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb>
-Output written on article.pdf (40 pages, 1958261 bytes).
+Output written on article.pdf (50 pages, 2732702 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
+ 403 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

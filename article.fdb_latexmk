@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex article"] 1715162273.48201 "article.aux" "article.bbl" "article" 1715168479.21884 0
-  "./article.bib" 1715158970.1766 16921 adacadff7c465d8280a70ce54807f8c4 ""
+["bibtex article"] 1715339469.89902 "article.aux" "article.bbl" "article" 1715339692.45853 0
+  "./article.bib" 1715338893.11557 17561 4ee66cc52042c0ef217bd7d4362a012b ""
   "./unsrturl.bst" 1687119902 28733 8a5ad410844b8f334847b40353467211 ""
-  "article.aux" 1715168478.73944 6275 c771aa85eed77408e2a564eec5051195 "pdflatex"
+  "article.aux" 1715339692.00643 8109 2b1e9cac290e4aac9e2300aa6b9b2e93 "pdflatex"
   (generated)
   "article.bbl"
   "article.blg"
   (rewritten before read)
-["pdflatex"] 1715168477.97952 "/Users/lenovo/Documents/my_thesis/article.tex" "article.pdf" "article" 1715168479.21893 0
-  "/Users/lenovo/Documents/my_thesis/article.tex" 1715168477.78848 6975 946dad75792854ce22b7656c195058df ""
+["pdflatex"] 1715339690.86266 "/Users/lenovo/Documents/my_thesis/article.tex" "article.pdf" "article" 1715339692.45899 0
+  "/Users/lenovo/Documents/my_thesis/article.tex" 1715336108.81602 7024 78d278bf6ab9741ce9627b3500b281c3 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -207,17 +207,22 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1714740423.56691 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1714740414 8221443 469e05e6f28728331b879d95119f7659 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "article.aux" 1715168478.73944 6275 c771aa85eed77408e2a564eec5051195 "pdflatex"
-  "article.bbl" 1715162273.56518 13677 ca6e117d8640b9b3b96c5e3cf3b7434e "bibtex article"
-  "article.lof" 1715168478.74026 506 d579cbd604f636932fcf9b04851ef8a4 "pdflatex"
-  "article.lot" 1715168478.5716 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "article.tex" 1715168477.78848 6975 946dad75792854ce22b7656c195058df ""
-  "article.toc" 1715168478.74023 1149 6e74976bf5d46cb6233cfe9af584529f "pdflatex"
+  "article.aux" 1715339692.00643 8109 2b1e9cac290e4aac9e2300aa6b9b2e93 "pdflatex"
+  "article.bbl" 1715339469.99045 14259 8d89f81196bde36828a3f67cc0ef47a1 "bibtex article"
+  "article.lof" 1715339692.00752 995 e89bf921743dc4542aba8b7364105df0 "pdflatex"
+  "article.lot" 1715339691.42877 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "article.tex" 1715336108.81602 7024 78d278bf6ab9741ce9627b3500b281c3 ""
+  "article.toc" 1715339692.00747 1641 49c60976e2d0d6d243a9b452773b6898 "pdflatex"
   "chapters/1/intro.tex" 1715154824.54848 21266 271040e78af60edc259b2780c837e49f ""
   "chapters/6/appendix.tex" 1715154945.8438 102 618124d4758e781c6d7a3b80a7781064 ""
   "chapters/litereture-review/ltr.tex" 1715159555.44733 27323 6ab72e808497402dce20634e5dfde91e ""
+  "chapters/methodology/methodology.tex" 1715339690.74021 14262 8149bb2955fc8da342c0867eb43721cc ""
   "img/cross_platform-sts.png" 1715152758.27502 69559 7f5e3cef97a5be965fc112e7f9470823 ""
+  "img/flutter_app_str.png" 1715337273.96289 211148 c0031f89839e129612ef2be6f60519e1 ""
   "img/graph_lr.png" 1715157697.19465 33176 b01ab86839a58496a2854722bdee6112 ""
+  "img/java_project_struct.png" 1715338593.40125 279555 10a09628695fe797f977f74c35c0f2ee ""
+  "img/kanban_board.png" 1715336623.33415 233039 36eb2629a2f16d72b323418745f15ea8 ""
+  "img/kotlin_project_struct.png" 1715338381.80584 191300 a8cd4f7c705a41bd8f505b4226c97ac7 ""
   "img/num_of_downloads.png" 1715149861.14329 81499 9fbbe0a8ce8dcda8219e4900b09f3f63 ""
   "pnumasterh.cls" 1687119902 32153 1df4d0fbaca7ed551636dd726488835a ""
   (generated)
