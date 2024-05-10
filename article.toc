@@ -19,3 +19,6 @@
 \contentsline {subsubsection}{\numberline {3.2.2}Flutter Application Development}{27}{}%
 \contentsline {subsubsection}{\numberline {3.2.3}Kotlin Application Development}{29}{}%
 \contentsline {subsubsection}{\numberline {3.2.4}Java Application Development}{31}{}%
+\contentsline {subsection}{\numberline {3.3}SonarQube Code Inspection and Open Source Projects}{33}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Setting Up SonarQube Environment}{34}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}Applying SonarQube Analysis to the Kanban Board Project}{35}{}%

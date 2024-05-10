@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.3)  10 MAY 2024 20:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.3)  11 MAY 2024 01:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -617,7 +617,7 @@ Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 \Urlmuskip=\muskip20
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-Package color Info: Redefining color red on input line 51.
+Package color Info: Redefining color red on input line 52.
 \c@algorithm=\count345
 \c@mybox=\count346
 \c@definition=\count347
@@ -633,26 +633,26 @@ LaTeX Warning: Unused global option(s):
 (./article.aux)
 \openout1 = `article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 99.
-LaTeX Font Info:    Trying to load font information for LUC+nanummj on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 100.
+LaTeX Font Info:    Trying to load font information for LUC+nanummj on input line 100.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    ... okay on input line 100.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count350
@@ -801,34 +801,39 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 100.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 101.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 100.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 101.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
 
-] (./article.toc)
+] (./article.toc
+Overfull \hbox (1.22342pt too wide) in paragraph at lines 24--24
+ [][] []\OT1/cmr/m/n/10.95 Applying Sonar-Qube Anal-y-sis to the Kan-ban Board Project []  
+ []
+
+)
 \tf@toc=\write4
 \openout4 = `article.toc'.
 
- [1] (./article.lof)
+ [1] [2] (./article.lof)
 \tf@lof=\write5
 \openout5 = `article.lof'.
 
- [2] (./article.lot)
+ [3] (./article.lot)
 \tf@lot=\write6
 \openout6 = `article.lot'.
 
- [3]
-Overfull \hbox (34.99998pt too wide) in paragraph at lines 118--128
+ [4]
+Overfull \hbox (34.99998pt too wide) in paragraph at lines 119--129
 [][] 
  []
 
-[4] [5] (./chapters/1/intro.tex
-<img/num_of_downloads.png, id=29, 953.5625pt x 555.07375pt>
+[5] [6] (./chapters/1/intro.tex
+<img/num_of_downloads.png, id=32, 953.5625pt x 555.07375pt>
 File: img/num_of_downloads.png Graphic file (type png)
 <use img/num_of_downloads.png>
 Package pdftex.def Info: img/num_of_downloads.png  used on input line 11.
@@ -839,7 +844,7 @@ Overfull \hbox (10.84549pt too wide) in paragraph at lines 11--12
  []
 
 [1] [2 <./img/num_of_downloads.png>] [3] [4] [5] [6] [7]
-<img/cross_platform-sts.png, id=54, 951.555pt x 569.12625pt>
+<img/cross_platform-sts.png, id=57, 951.555pt x 569.12625pt>
 File: img/cross_platform-sts.png Graphic file (type png)
 <use img/cross_platform-sts.png>
 Package pdftex.def Info: img/cross_platform-sts.png  used on input line 65.
@@ -862,7 +867,7 @@ File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
 )
 Missing character: There is no ^^A in font uwmj03!
 [18]
-<img/graph_lr.png, id=93, 469.755pt x 205.76875pt>
+<img/graph_lr.png, id=96, 469.755pt x 205.76875pt>
 File: img/graph_lr.png Graphic file (type png)
 <use img/graph_lr.png>
 Package pdftex.def Info: img/graph_lr.png  used on input line 55.
@@ -870,42 +875,61 @@ Package pdftex.def Info: img/graph_lr.png  used on input line 55.
  [19] [20 <./img/graph_lr.png>] [21] [22]) [23] (./chapters/methodology/methodology.tex [24
 
 ] [25]
-<img/kanban_board.png, id=117, 469.755pt x 246.9225pt>
+<img/kanban_board.png, id=120, 469.755pt x 246.9225pt>
 File: img/kanban_board.png Graphic file (type png)
 <use img/kanban_board.png>
 Package pdftex.def Info: img/kanban_board.png  used on input line 30.
 (pdftex.def)             Requested size: 399.29364pt x 209.88509pt.
-<img/flutter_app_str.png, id=118, 311.1625pt x 608.2725pt>
+<img/flutter_app_str.png, id=121, 311.1625pt x 608.2725pt>
 File: img/flutter_app_str.png Graphic file (type png)
 <use img/flutter_app_str.png>
 Package pdftex.def Info: img/flutter_app_str.png  used on input line 41.
 (pdftex.def)             Requested size: 248.93034pt x 486.61867pt.
  [26] [27 <./img/kanban_board.png>] [28 <./img/flutter_app_str.png>]
-<img/kotlin_project_struct.png, id=130, 469.755pt x 427.5975pt>
+<img/kotlin_project_struct.png, id=133, 469.755pt x 427.5975pt>
 File: img/kotlin_project_struct.png Graphic file (type png)
 <use img/kotlin_project_struct.png>
 Package pdftex.def Info: img/kotlin_project_struct.png  used on input line 55.
 (pdftex.def)             Requested size: 375.80452pt x 342.07846pt.
  [29] [30 <./img/kotlin_project_struct.png>]
-<img/java_project_struct.png, id=139, 469.755pt x 559.08875pt>
+<img/java_project_struct.png, id=142, 469.755pt x 559.08875pt>
 File: img/java_project_struct.png Graphic file (type png)
 <use img/java_project_struct.png>
 Package pdftex.def Info: img/java_project_struct.png  used on input line 69.
 (pdftex.def)             Requested size: 375.80452pt x 447.27159pt.
- [31] [32 <./img/java_project_struct.png>]) [33] (./article.bbl [34
+ [31] [32 <./img/java_project_struct.png>] [33] (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+) [34{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (22.58421pt too wide) in paragraph at lines 108--109
+\OT1/cmr/bx/n/10.95 sonar-qube -Dsonar.host.url=http://localhost:9000 -Dsonar.login=\TS1/cmr/bx/n/10.95 $\OT1/cmr/bx/n/10.95 TOKEN
+ []
 
 
-] [35]
+Overfull \hbox (0.5844pt too wide) in paragraph at lines 113--114
+[]\OT1/cmr/m/n/10.95 SonarQube In-stal-la-tion and Con-fig-u-ra-tion: Sim-i-lar steps were fol-lowed in the Kotlin
+ []
+
+[35]
+Overfull \hbox (41.98154pt too wide) in paragraph at lines 120--121
+[]\OT1/cmr/m/n/10.95 Project Con-fig-u-ra-tion for Flut-ter: In the Flut-ter project di-rec-tory, a sonar-project.properties
+ []
+
+) [36] (./article.bbl [37
+
+
+] [38]
 Underfull \hbox (badness 3724) in paragraph at lines 101--104
 []\OT1/cmr/m/n/10.95 Gustavo Pinto, Wes-l-ley Tor-res, Ben-ito Fer-nan-des, Fer-nando Cas-tor, and
  []
 
-[36] [37]
+[39] [40]
 Underfull \hbox (badness 3375) in paragraph at lines 181--184
 []\OT1/cmr/m/n/10.95 Ifeanyi Row-land Onyen-weaku, Michael Scott Brown, Michael Pelosi, and
  []
 
-[38] [39]
+[41] [42]
 Underfull \hbox (badness 10000) in paragraph at lines 239--242
 []\OT1/cmr/m/n/10.95 Jaykishan Se-wak.  Mvvm ar-chi-tec-ture in an-droid us-ing kotlin: A
  []
@@ -915,9 +939,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--242
 \OT1/cmr/m/n/10.95 prac-ti-cal guide, Jun 2023.  URL: $https : / / medium . com / @jecky999 /
  []
 
-[40]) [41] (./chapters/6/appendix.tex) [42
+[43]) [44] (./chapters/6/appendix.tex) [45
 
-] [43
+] [46
 
 ] (./article.aux)
  ***********
@@ -930,18 +954,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12112 strings out of 474116
- 202850 string characters out of 5743683
- 1936187 words of memory out of 5000000
- 34186 multiletter control sequences out of 15000+600000
- 588878 words of font info for 146 fonts, out of 8000000 for 9000
+ 12498 strings out of 474116
+ 206449 string characters out of 5743683
+ 1935187 words of memory out of 5000000
+ 34564 multiletter control sequences out of 15000+600000
+ 589564 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,10n,99p,2376b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb>
-Output written on article.pdf (50 pages, 2732702 bytes).
+ 86i,10n,99p,2376b,1152s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on article.pdf (54 pages, 2763370 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
+ 426 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
