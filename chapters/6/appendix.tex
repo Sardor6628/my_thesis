@@ -367,4 +367,205 @@ print(f"Kotlin Report saved to {report_path}")
 
 \end{lstlisting}
 
+
+
+\section{Implementation Details of Task Models}\label{app:TaskResponse}
+\begin{lstlisting}[
+	caption				= Java Task Model Implementation,	
+	label				= javaModel,         
+	xleftmargin			= 20pt,
+	framexleftmargin	= 20pt,
+	tabsize				= 4,
+	breaklines			= true,
+	breakautoindent		= true,
+	postbreak			= \space,
+	frame		= tb,
+	numbers		= left,		% 이 밑으론 줄 번호 설정
+	stepnumber	= 1,
+	numbersep	= 5pt,
+	numberstyle	= \tiny,
+	escapeinside = ~~
+	]%--------------------여기부터 코드(한 줄 Enter 필수)
+		
+
+    package com.example.kanban_board_java.data.response;
+    import com.google.firebase.firestore.Exclude;
+    public class TaskResponse {
+        private String id;
+        @Exclude
+        private String documentId;
+        private String title;
+        private String userId;
+        private String description;
+        private Long createdTime;
+        private Long completedTime;
+        private Long startedTime;
+        private long spentTime;
+        private String currentStatus;
+        public String getId() {
+            return id;
+        }
+        public void setId(String id) {
+            this.id = id;
+        }
+        public String getDocumentId() {
+            return documentId;
+        }
+        public void setDocumentId(String documentId) {
+            this.documentId = documentId;
+        }
+        public String getTitle() {
+            return title;
+        }
+        public void setTitle(String title) {
+            this.title = title;
+        }
+        public String getUserId() {
+            return userId;
+        }
+        public void setUserId(String userId) {
+            this.userId = userId;
+        }
+        public String getDescription() {
+            return description;
+        }
+        public void setDescription(String description) {
+            this.description = description;
+        }
+        public Long getCreatedTime() {
+            if (createdTime == null) {
+                return 1000L;
+            }
+            return createdTime;
+        }
+        public void setCreatedTime(Long createdTime) {
+            this.createdTime = createdTime;
+        }
+        public Long getCompletedTime() {
+            if (completedTime == null) {
+                return 1000L;
+            }
+            return completedTime;
+        }
+        public void setCompletedTime(Long completedTime) {
+            this.completedTime = completedTime;
+        }
+        public Long getStartedTime() {
+            if (startedTime == null) {
+                return 1000L;
+            }
+            return startedTime;
+        }
+        public void setStartedTime(Long startedTime) {
+            this.startedTime = startedTime;
+        }
+        public long getSpentTime() {
+            return spentTime;
+        }
+        public void setSpentTime(long spentTime) {
+            this.spentTime = spentTime;
+        }
+        public String getCurrentStatus() {
+            return currentStatus;
+        }
+        public void setCurrentStatus(String currentStatus) {
+            this.currentStatus = currentStatus;
+        }
+    }    
+\end{lstlisting}
+
+\begin{lstlisting}[
+	caption				= Kotlin Task Model Implementation,	
+	label				= kotlinModel,         
+	xleftmargin			= 20pt,
+	framexleftmargin	= 20pt,
+	tabsize				= 4,
+	breaklines			= true,
+	breakautoindent		= true,
+	postbreak			= \space,
+	frame		= tb,
+	numbers		= left,		% 이 밑으론 줄 번호 설정
+	stepnumber	= 1,
+	numbersep	= 5pt,
+	numberstyle	= \tiny,
+	escapeinside = ~~
+	]
+    package com.example.kanban_board_java_kotlin.data.response
+import android.os.Parcelable
+import com.google.firebase.firestore.Exclude
+import kotlinx.parcelize.Parcelize
+@Parcelize
+data class TaskResponse(
+    var id: String = System.currentTimeMillis().toString(),
+    @get:Exclude var documentId: String = "",
+    var title: String = "",
+    var userId: String = "",
+    var description: String = "",
+    var createdTime: Long? = null,
+    var completedTime: Long? = null,
+    var startedTime: Long? = null,
+    var spentTime: Long = 0,
+    var currentStatus: String = "todo"
+) : Parcelable
+\end{lstlisting}
+
+\begin{lstlisting}[
+	caption				= Dart Task Model Implementation,	
+	label				= dartModel,         
+	xleftmargin			= 20pt,
+	framexleftmargin	= 20pt,
+	tabsize				= 4,
+	breaklines			= true,
+	breakautoindent		= true,
+	postbreak			= \space,
+	frame		= tb,
+	numbers		= left,		% 이 밑으론 줄 번호 설정
+	stepnumber	= 1,
+	numbersep	= 5pt,
+	numberstyle	= \tiny,
+	escapeinside = ~~
+	]
+    import 'package:kanban_board/constants/contant_variables.dart';
+    class Task {
+      final String id;
+      final String title;
+      final String userId;
+      final String description;
+      final DateTime? createdTime;
+      final DateTime? completedTime;
+      final DateTime? startedTime;
+      final int spentTime;
+      final String currentStatus;
+      Task({
+        required this.id,
+        required this.title,
+        required this.userId,
+        required this.description,
+        required this.createdTime,
+        required this.completedTime,
+        required this.startedTime,
+        required this.spentTime,
+        required this.currentStatus,
+      });
+      factory Task.fromFirestore(Map<String, dynamic> data, String id) {
+        return Task(
+          id: id,
+          title: data['title'],
+          userId: data['userId'],
+          description: data['description'],
+          createdTime: data['createdTime'] != null
+              ? DateTime.fromMicrosecondsSinceEpoch(data['createdTime'])
+              : null,
+          completedTime: data['completedTime'] != null
+              ? DateTime.fromMicrosecondsSinceEpoch(data['completedTime'])
+              : null,
+          startedTime: data['startedTime'] != null
+              ? DateTime.fromMicrosecondsSinceEpoch(data['startedTime'])
+              : DateTime.now(),
+          spentTime: data['spentTime'] != null ? data['spentTime'] : 0,
+          currentStatus: data['currentStatus'],
+        );
+      }
+\end{lstlisting}
+
 \clearpage

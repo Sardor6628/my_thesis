@@ -5,4 +5,8 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Flutter version of the application’s project structuring}}{28}{}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Kotlin version of the application’s project structuring}}{30}{}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Java version of the application’s project structuring}}{32}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces SonarQube Dashboard Overview: Code Quality Metrics for Kanban Board Projects in Flutter, Kotlin, and Java}}{36}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces SonarQube Dashboard Overview: Code Quality Metrics for Kanban Board Projects in Flutter, Kotlin, and Java}}{37}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Severity Distribution in Java Projects}}{43}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Severity Distribution in Kotlin Projects}}{44}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Severity Distribution in Dart Projects}}{44}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Severity Distribution of Code Smells Across Frameworks}}{45}{}%
