@@ -13,46 +13,49 @@ Warning--empty year in mamunimproving
 Warning--all relevant fields are empty in bloc
 Warning--all relevant fields are empty in getX
 Warning--all relevant fields are empty in provider
+Warning--empty journal in guamansonarqube
+Warning--empty year in guamansonarqube
+Warning--all relevant fields are empty in sonarQube
 Warning--empty publisher in domgnn
-You've used 56 entries,
+You've used 65 entries,
             2522 wiz_defined-function locations,
-            892 strings with 16170 characters,
-and the built_in function-call counts, 20418 in all, are:
-= -- 2032
-> -- 663
-< -- 21
-+ -- 218
-- -- 162
-* -- 948
-:= -- 2590
-add.period$ -- 178
-call.type$ -- 56
-change.case$ -- 50
+            932 strings with 17619 characters,
+and the built_in function-call counts, 23067 in all, are:
+= -- 2267
+> -- 749
+< -- 23
++ -- 247
+- -- 182
+* -- 1056
+:= -- 2906
+add.period$ -- 201
+call.type$ -- 65
+change.case$ -- 57
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 683
-empty$ -- 2267
-format.name$ -- 162
-if$ -- 5732
+cite$ -- 74
+duplicate$ -- 774
+empty$ -- 2591
+format.name$ -- 182
+if$ -- 6496
 int.to.chr$ -- 0
-int.to.str$ -- 56
-missing$ -- 49
-newline$ -- 283
-num.names$ -- 53
-pop$ -- 430
+int.to.str$ -- 65
+missing$ -- 55
+newline$ -- 324
+num.names$ -- 60
+pop$ -- 507
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1619
+skip$ -- 1853
 stack$ -- 0
-substring$ -- 1038
-swap$ -- 219
-text.length$ -- 21
+substring$ -- 1133
+swap$ -- 241
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 147
-width$ -- 58
-write$ -- 614
-(There were 7 warnings)
+warning$ -- 9
+while$ -- 163
+width$ -- 67
+write$ -- 696
+(There were 10 warnings)

@@ -240,6 +240,47 @@ Jaykishan Sewak.
 \newblock Mvvm architecture in android using kotlin: A practical guide, Jun 2023.
 \newblock URL: \url{https://medium.com/@jecky999/mvvm-architecture-in-android-using-kotlin-a-practical-guide-73f8de1d9c58}.
 
+\bibitem{lenarduzzi2019technical}
+Valentina Lenarduzzi, Nyyti Saarim{\"a}ki, and Davide Taibi.
+\newblock The technical debt dataset.
+\newblock In {\em Proceedings of the fifteenth international conference on predictive models and data analytics in software engineering}, pages 2--11, 2019.
+
+\bibitem{tan2021evolution}
+Jie Tan, Daniel Feitosa, Paris Avgeriou, and Mircea Lungu.
+\newblock Evolution of technical debt remediation in python: A case study on the apache software ecosystem.
+\newblock {\em Journal of Software: Evolution and Process}, 33(4):e2319, 2021.
+
+\bibitem{kawuma2022empirical}
+Simon Kawuma and Evarist Nabaasa.
+\newblock An empirical study of bugs in eclipse stable internal interfaces.
+\newblock {\em arXiv preprint arXiv:2203.09134}, 2022.
+
+\bibitem{saborido2022automatizing}
+Rub{\'e}n Saborido, Javier Ferrer, Francisco Chicano, and Enrique Alba.
+\newblock Automatizing software cognitive complexity reduction.
+\newblock {\em IEEE Access}, 10:11642--11656, 2022.
+
+\bibitem{tollin2017change}
+Irene Tollin, Francesca~Arcelli Fontana, Marco Zanoni, and Riccardo Roveda.
+\newblock Change prediction through coding rules violations.
+\newblock In {\em Proceedings of the 21st international conference on evaluation and assessment in software engineering}, pages 61--64, 2017.
+
+\bibitem{guamansonarqube}
+Daniel Guaman and Paola~Cabrera Barba-Guam{\'a}n.
+\newblock Sonarqube as a tool to identify software metrics and technical debt.
+
+\bibitem{Docker}
+May 2024.
+\newblock URL: \url{https://docker.com}.
+
+\bibitem{flutter_sonar}
+Insideapp-Oss.
+\newblock Github - insideapp-oss/sonar-flutter: Sonarqube plugin for flutter / dart.
+\newblock URL: \url{https://github.com/insideapp-oss/sonar-flutter}.
+
+\bibitem{sonarQube}
+URL: \url{https://docs.sonarsource.com/sonarqube/latest/extension-guide/web-api/}.
+
 \bibitem{mltf}
 Tim Krieger and Daniel Meierrieks.
 \newblock Terrorist financing and money laundering.

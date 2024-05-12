@@ -22,3 +22,8 @@
 \contentsline {subsection}{\numberline {3.3}SonarQube Code Inspection and Open Source Projects}{33}{}%
 \contentsline {subsubsection}{\numberline {3.3.1}Setting Up SonarQube Environment}{34}{}%
 \contentsline {subsubsection}{\numberline {3.3.2}Applying SonarQube Analysis to the Kanban Board Project}{35}{}%
+\contentsline {subsubsection}{\numberline {3.3.3}Setting Up an Automated Pipeline for SonarQube Analysis of Open Source Projects}{37}{}%
+\contentsline {section}{\numberline {IV}Results}{39}{}%
+\contentsline {section}{\numberline {I}Project Listings for Automated SonarQube Analysis}{48}{}%
+\contentsline {section}{\numberline {II}Python Script for Project Automation and Configuration}{51}{}%
+\contentsline {section}{\numberline {III}Python Script for Data Retrieval and Report Generation}{57}{}%

@@ -1,7 +1,8 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Number of mobile app downloads worldwide from 2019 to 2027, by segment(in million downloads) \cite {statista2023}}}{2}{}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Cross-platform mobile frameworks used by software developers worldwide from 2019 to 2022\cite {jetbrains2022}}}{8}{}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Cross-platform mobile frameworks used by software developers worldwide from 2019 to 2022 \cite {jetbrains2022}}}{8}{}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Corral and Fronza's research resulted in a Market Success Model Based on App Store Metrics.}}{20}{}%
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Planned view of Kanban Board Application. Designed Using Figma}}{27}{}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Flutter version of the application’s project structuring}}{28}{}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Kotlin version of the application’s project structuring}}{30}{}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Java version of the application’s project structuring}}{32}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces SonarQube Dashboard Overview: Code Quality Metrics for Kanban Board Projects in Flutter, Kotlin, and Java}}{36}{}%
