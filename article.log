@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.3)  12 MAY 2024 23:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.3)  12 MAY 2024 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -856,11 +856,7 @@ Overfull \hbox (9.94211pt too wide) in paragraph at lines 65--66
 
 [8 <./img/cross_platform-sts.png>] [9] [10]) [11] (./chapters/litereture-review/ltr.tex [12
 
-]
-
-LaTeX Warning: Citation `stepanov2022backend' on page 13 undefined on input line 11.
-
-[13] [14] [15] [16] [17]
+] [13] [14] [15] [16] [17]
 LaTeX Font Info:    Trying to load font information for LUC+uhcmj on input line 50.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
 File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
@@ -980,7 +976,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--242
 \OT1/cmr/m/n/10.95 prac-ti-cal guide, Jun 2023.  URL: $https : / / medium . com / @jecky999 /
  []
 
-[57]) [58] (./chapters/6/appendix.tex
+) [57] [58] (./chapters/6/appendix.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / Sardor6628 /
  []
@@ -1234,21 +1230,17 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 13100 strings out of 474116
- 215374 string characters out of 5743683
+ 13093 strings out of 474116
+ 215318 string characters out of 5743683
  2051187 words of memory out of 5000000
- 35142 multiletter control sequences out of 15000+600000
+ 35135 multiletter control sequences out of 15000+600000
  590079 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,16n,99p,2376b,1656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on article.pdf (88 pages, 3035080 bytes).
+Output written on article.pdf (88 pages, 3033391 bytes).
 PDF statistics:
  562 PDF objects out of 1000 (max. 8388607)
  346 compressed objects within 4 object streams

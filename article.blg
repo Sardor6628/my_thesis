@@ -7,7 +7,6 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: article.bib
-Warning--I didn't find a database entry for "stepanov2022backend"
 Warning--can't use both volume and number fields in rybakovas2022financial
 Warning--empty year in mamunimproving
 Warning--all relevant fields are empty in bloc
@@ -16,46 +15,45 @@ Warning--all relevant fields are empty in provider
 Warning--empty journal in guamansonarqube
 Warning--empty year in guamansonarqube
 Warning--all relevant fields are empty in sonarQube
-Warning--empty publisher in domgnn
-You've used 65 entries,
+You've used 58 entries,
             2522 wiz_defined-function locations,
-            932 strings with 17619 characters,
-and the built_in function-call counts, 23067 in all, are:
-= -- 2267
-> -- 749
-< -- 23
-+ -- 247
-- -- 182
-* -- 1056
-:= -- 2906
-add.period$ -- 201
-call.type$ -- 65
-change.case$ -- 57
+            886 strings with 16162 characters,
+and the built_in function-call counts, 20731 in all, are:
+= -- 2039
+> -- 658
+< -- 21
++ -- 217
+- -- 159
+* -- 956
+:= -- 2600
+add.period$ -- 175
+call.type$ -- 58
+change.case$ -- 52
 chr.to.int$ -- 0
-cite$ -- 74
-duplicate$ -- 774
-empty$ -- 2591
-format.name$ -- 182
-if$ -- 6496
+cite$ -- 66
+duplicate$ -- 693
+empty$ -- 2330
+format.name$ -- 159
+if$ -- 5827
 int.to.chr$ -- 0
-int.to.str$ -- 65
-missing$ -- 55
-newline$ -- 324
-num.names$ -- 60
-pop$ -- 507
+int.to.str$ -- 58
+missing$ -- 48
+newline$ -- 284
+num.names$ -- 53
+pop$ -- 445
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1853
+skip$ -- 1664
 stack$ -- 0
-substring$ -- 1133
-swap$ -- 241
-text.length$ -- 23
+substring$ -- 1089
+swap$ -- 225
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 9
-while$ -- 163
-width$ -- 67
-write$ -- 696
-(There were 10 warnings)
+warning$ -- 8
+while$ -- 152
+width$ -- 60
+write$ -- 613
+(There were 8 warnings)

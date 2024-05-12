@@ -281,44 +281,4 @@ Insideapp-Oss.
 \bibitem{sonarQube}
 URL: \url{https://docs.sonarsource.com/sonarqube/latest/extension-guide/web-api/}.
 
-\bibitem{mltf}
-Tim Krieger and Daniel Meierrieks.
-\newblock Terrorist financing and money laundering.
-\newblock Working Papers CIE~40, Paderborn University, CIE Center for International Economics, 2011.
-\newblock URL: \url{https://EconPapers.repec.org/RePEc:pdn:ciepap:40}.
-
-\bibitem{nct}
-John. Roth, Douglas. Greenburg, Serena. Wille, and National~Commission on~Terrorist Attacks upon~the United~States.
-\newblock {\em Monograph on Terrorist Financing}.
-\newblock National Commission on Terrorist Attacks upon the United States, 2004.
-\newblock URL: \url{https://nla.gov.au/nla.cat-vn3838118}.
-
-\bibitem{fatf-tf}
-FATF.
-\newblock Terrorist financing.
-\newblock {\em Financial Action Task Force}, February 2008.
-
-\bibitem{freeman}
-Michael Freeman and Moyara Ruehsen.
-\newblock Terrorism financing methods: An overview.
-\newblock {\em Perspectives on Terrorism}, 7(4):5--26, 2013.
-\newblock URL: \url{http://www.jstor.org/stable/26296981}.
-
-\bibitem{winston}
-Winston Maxwell, Astrid Bertrand, and Xavier Vamparys.
-\newblock {Are AI-based Anti-Money Laundering (AML) Systems Compatible with European Fundamental Rights?}
-\newblock In {\em {ICML 2020 Law and Machine Learning Workshop}}, Vienne, Austria, July 2020.
-\newblock Conf{\'e}rence en ligne.
-\newblock URL: \url{https://hal.science/hal-02884824}.
-
-\bibitem{strgraph}
-Lei Cai, Zhengzhang Chen, Chen Luo, Jiaping Gui, Jingchao Ni, Ding Li, and Haifeng Chen.
-\newblock Structural temporal graph neural networks for anomaly detection in dynamic graphs, 2020.
-
-\bibitem{domgnn}
-Kaize Ding, Jundong Li, Rohit Bhanushali, and Huan Liu.
-\newblock {\em Deep Anomaly Detection on Attributed Networks}, pages 594--602.
-\newblock 2019.
-\newblock URL: \url{https://epubs.siam.org/doi/abs/10.1137/1.9781611975673.67}.
-
 \end{thebibliography}
