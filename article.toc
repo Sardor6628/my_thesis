@@ -43,5 +43,5 @@
 \contentsline {section}{\numberline {VI}Conclusion}{49}{}%
 \contentsline {section}{\numberline {I}Project Listings for Automated SonarQube Analysis}{59}{}%
 \contentsline {section}{\numberline {II}Python Script for Project Automation and Configuration}{62}{}%
-\contentsline {section}{\numberline {III}Python Script for Data Retrieval and Report Generation}{68}{}%
-\contentsline {section}{\numberline {IV}Implementation Details of Task Models}{74}{}%
+\contentsline {section}{\numberline {III}Python Script for Data Retrieval and Report Generation}{67}{}%
+\contentsline {section}{\numberline {IV}Implementation Details of Task Models}{71}{}%

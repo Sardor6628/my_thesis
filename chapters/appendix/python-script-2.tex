@@ -1,0 +1,134 @@
+\section{Python Script for Data Retrieval and Report Generation} \label{app:a3}
+
+%-------------------------
+\begin{lstlisting}[
+	caption				= Python Script for Data Retrieval and Report Generation
+	label				= muapp,          % 여기에는 '_'쓸 거면  '_'로
+	xleftmargin			= 20pt,
+	framexleftmargin	= 20pt,
+	tabsize				= 4,
+	breaklines			= true,
+	breakautoindent		= true,
+	postbreak			= \space,
+%	backgroundcolor		= \color{listingcolor}, 
+	frame		= tb,
+	numbers		= left,		% 이 밑으론 줄 번호 설정
+	stepnumber	= 1,
+	numbersep	= 5pt,
+	numberstyle	= \tiny,
+	escapeinside = ~~
+	]	
+import requests
+import pandas as pd
+
+pd.set_option('display.max_rows', None)  
+pd.set_option('display.max_columns', None) 
+pd.set_option('display.width', 1000)  
+pd.set_option('display.max_colwidth', None)
+
+def fetch_project_metrics_and_issues_summary(base_url, projects, types="CODE_SMELL", ps=500):
+    project_summaries = []  
+
+    for project in projects:
+        # Fetch issues summary
+        issues_params = {
+            "componentKeys": project,
+            "types": types,
+            "ps": ps
+        }
+
+        issues_response = requests.get(f"{base_url}/api/issues/search", params=issues_params)
+
+        # Fetch project metrics
+        metrics_params = {
+            "component": project,
+            "metricKeys": "ncloc,complexity,violations"
+        }
+
+        metrics_response = requests.get(f"{base_url}/api/measures/component", params=metrics_params)
+
+        if issues_response.status_code == 200 and metrics_response.status_code == 200:
+            issues_data = issues_response.json()
+            metrics_data = metrics_response.json()
+
+            # Parse issues data
+            issues = issues_data.get("issues", [])
+            severity_counts = {
+                "BLOCKER": 0,
+                "CRITICAL": 0,
+                "MAJOR": 0,
+                "MINOR": 0,
+                "INFO": 0
+            }
+            for issue in issues:
+                if issue["severity"] in severity_counts:
+                    severity_counts[issue["severity"]] += 1
+
+            # Parse metrics data for ncloc (Lines of Code)
+            measures = metrics_data["component"]["measures"]
+            loc = next((measure["value"] for measure in measures if measure["metric"] == "ncloc"), "0")
+
+            # Prepare the summary for the current project
+            project_summary = {
+                "NAME": project,
+                "BLOCKER": severity_counts["BLOCKER"],
+                "CRITICAL": severity_counts["CRITICAL"],
+                "MAJOR": severity_counts["MAJOR"],
+                "MINOR": severity_counts["MINOR"],
+                "INFO": severity_counts["INFO"],
+                "total": len(issues),
+                "LOC": loc  # Add LOC to the project summary
+            }
+
+            project_summaries.append(project_summary)
+        else:
+            print(
+                f"Failed to fetch data for project {project}, issues status code: {issues_response.status_code}, metrics status code: {metrics_response.status_code}")
+
+    return pd.DataFrame(project_summaries)
+
+
+base_url = "http://localhost:9000"
+projects = ["Kanban_board_flutter","day_night_time_picker", "android-tv-app", "ConsumerFlutterApp", "flutter-chat-craft",
+            "Flutter-TDD-Clean-Architecture-E-Commerce-App", "flutter_samples", "Kanban_board_flutter", "flutter-quill",
+            "Musify", "openfoodfacts-dart", "Personal-Finance-Manager",
+            "mobile", "spotube", "anonaddy", "pstube"]
+project_metrics_and_issues_summary_df = fetch_project_metrics_and_issues_summary(base_url, projects)
+# Display the table
+print(project_metrics_and_issues_summary_df)
+
+# Save the DataFrame to a CSV file
+report_path = "flutter-report.csv"
+project_metrics_and_issues_summary_df.to_csv(report_path, index=False)
+print(f"Flutter Report saved to {report_path}")
+
+projects = ["Kanban_board_java", 'CountdownTimer2', '2048-android2', 'Easy-Attendance-App', 'StopWatchRemade',
+            'Post-it-Notes-App', 'VideoPlayer', 'CurrencyConverter', 'passwordgenerator', 'finance-manager',
+            'todo-list', 'pain-diary', 'qr-scanner', 'tape-measure', 'pedometer', 'weather']
+
+project_metrics_and_issues_summary_df = fetch_project_metrics_and_issues_summary(base_url, projects)
+# Display the table
+print(project_metrics_and_issues_summary_df)
+
+# Save the DataFrame to a CSV file
+report_path = "java-report.csv"
+project_metrics_and_issues_summary_df.to_csv(report_path, index=False)
+print(f"Java Report saved to {report_path}")
+
+projects = ["Kanban_board_kotlin", "vocable-android", "plees-tracker", "NotyKT",
+            "muzei", "awaker", "GitExplorer-Android",
+            'pdf-viewer-pro', 'vocable', 'MyNotes',
+            'RecurringExpenseTracker',
+            'Simple-Dialer', 'PhoneBook',
+            'SoundMeter1', 'Simple-Draw', 'unitconverter', 'Simple-Voice-Recorder']
+
+project_metrics_and_issues_summary_df = fetch_project_metrics_and_issues_summary(base_url, projects)
+# Display the table
+print(project_metrics_and_issues_summary_df)
+
+# Save the DataFrame to a CSV file
+report_path = "kotlin-report.csv"
+project_metrics_and_issues_summary_df.to_csv(report_path, index=False)
+print(f"Kotlin Report saved to {report_path}")
+
+\end{lstlisting}
