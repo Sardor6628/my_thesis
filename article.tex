@@ -39,119 +39,28 @@
 \usepackage{url}
 
 
-\definecolor{mygreen}{rgb}{0   , 0.6, 0   }
-\definecolor{mygray }{rgb}{0.5 , 0.5, 0.5 }
-\definecolor{mymauve}{rgb}{0.58, 0  , 0.82}
-\renewcommand\lstlistingname{Algorithm}
-\floatsetup[table]{capposition=top}
 
-\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
-\definecolor{Gray}{gray}{0.9}
-
-\urlstyle{same}
-\definecolor{red}{rgb}{1, 0, 0}
-
-\floatstyle{ruled}
-\newfloat{algorithm}{htp}{loa}
-\floatname{algorithm}{a}
-
-\newfloat{mybox}{htp}{lob}
-\newcommand{\DRule}{\rule[4pt]{\linewidth}{0.5mm}}
-\newcommand{\SRule}{\rule[4pt]{\linewidth}{0.1mm}}
-
-\newcommand{\argmax}{\operatornamewithlimits{argmax}}
-\newtheorem{definition}{정의}[subsection]
-\newtheorem{example}{예제}[subsection]
-\newtheorem{theorem}{정리}[subsection]
-
-\newcommand{\abs}[1]{\lvert #1 \rvert}
-\newenvironment{smalltt}{\scriptsize\begin{alltt}}{\end{alltt}\normalsize}
-
-\DeclareCaptionFormat{mylst}{\hrule#1#2#3}
-
-\newenvironment{CVerbatim}
-	{\singlespacing\center\BVerbatim}
-	{\endBVerbatim\endcenter}
-
-\htitle{\huge \vspace{-5mm} Comparative Analysis of Cross-Platform and Native Mobile App Development Approaches \vspace{-5mm}}
-\title{Comparative Analysis of Cross-Platform and Native Mobile App Development Approaches}
-\hauthor{ Ibrokhimov Sardorbek Rustam Ugli}
-\author{Ibrokhimov Sardorbek Rustam Ugli}
-
-\etitle{\huge 교차 플랫폼 및 네이티브 모바일 앱 개발 접근 방식의 비교 분석 } 
-\eauthor{이브로키모브 사도르벡}
-\edept{정 보 융 합 공 학 과} 
-\hdept{Department of Information Convergence Engineering}
-\huniv{Pusan National University} 
-\euniv{부 산 대 학 교}
-
-\hdegree{Thesis for the degree of Master of Science} \degree{Thesis for the degree of Master of Science}
-
-\htutor{Gyun Woo}
-
-
-\principaladvisor{Hwan-Gue Cho} \subadva{Heung-Seok Chae}
-\subadvb{Gyun Woo}
-
-\graddate{August 2024}
-
-\submitdate{May 31, 2024}
-
+\input{chapters/additional-parts/thesis-config.tex}
 \begin{document}
 \maketitle 
 \pagestyle{empty}
-
 \newpage
 \pagestyle{plain} \pagenumbering{roman}
-
 \setlength\cftsecnumwidth{2.3em}
-
 \tableofcontents
 \newpage
 \listoffigures 
 \newpage
 \listoftables 
 \newpage
-\section*{ \Huge List of Abbreviations}
-\vskip 1.5cm
-
-
-\begin{tabular}{@{}p{0.2\linewidth} p{0.8\linewidth}}
-    SDK & Software Development Kit \\
-    API & Application Programming Interface \\
-    LOC & Lines of Code \\
-    UI & User Interface  \\
-    HTTP & Hypertext Transfer Protocol  \\
-    MVVM & Model-View-ViewModel  \\
-    XML & eXtensible Markup Language \\
-    NOD & Number of Downloads \\
-    NOR & Number of Reviewers \\
-    AR & Application Ranking \\
-    CSV & Coma Separated Values \\
-    BLOC & Business Logic Component
-\end{tabular}
-
+\input{chapters/additional-parts/list-of-abbreviations.tex}
 \newpage
-\thispagestyle{empty}
-\begin{center}
-    \vskip 3.5cm
-    {\Large{Comparative Analysis of Cross-Platform and Native Mobile App Development Approaches}} \\
-    \vskip 15mm
-    {\large{Ibrokhimov Sardorbek Rustam Ugli}} \\
-    \vskip 10mm
-    {Department of Information Convergence Engineering} \\
-    {The Graduate School} \\
-    {Pusan National University} \\
-    \vskip 15mm
-    {\large{Abstract}}\\
-    \vskip 10 mm
-\end{center}
-Though lots of approaches to developing mobile apps have been suggested up to now, developers have difficulties selecting the right one. This study compares native and cross-platform application development approaches, particularly focusing on the shift in preference from Java to Kotlin and the increasing use of Flutter. This research offers practical insights into factors influencing developers’ choice of programming languages and frameworks in mobile application development by creating identical applications using Java, Kotlin, and Dart (Flutter). Furthermore, this study explores the best practices for development by examining the quality of code in 45 open-source GitHub repositories. The study evaluates LOC and code smells using semi-automated SonarQube assessments to determine the effects of selecting a specific language or framework on code maintainability and development efficiency. Preliminary findings show differences in the quality of the code produced by the two approaches, offering developers useful information on how to best optimize language and framework selection to reduce code smells and improve project maintainability.    
+\input{chapters/additional-parts/abstract-en.tex}
 \newpage
 \pagenumbering{arabic}
 
 \section{Introduction}
-\input{chapters/1/intro.tex}
+\input{chapters/introduction/intro.tex}
 \clearpage
 
 \section{Literature Review} \label{literature_review}
@@ -179,16 +88,8 @@ Though lots of approaches to developing mobile apps have been suggested up to no
 
 \appendix
 \section*{Appendices}
-\input{chapters/6/appendix.tex}
+\input{chapters/appendix/appendix.tex}
 \clearpage
-
-\begin{eabstract}
-    모바일 앱 개발 방법에 대해 많은 접근법이 제안되었지만, 개발자들은 적합한 방법을 선택하는 데 어려움을 겪고 있습니다. 이 연구는 주로 Java에서 Kotlin으로의 선호도 변화와 Flutter의 사용 증가에 중점을 두고, 네이티브 및 크로스플랫폼 애플리케이션 개발 접근 방식을 비교합니다. 이 연구는 Java, Kotlin, Dart(Flutter)를 사용하여 동일한 애플리케이션을 생성함으로써 모바일 애플리케이션 개발에서 개발자의 프로그래밍 언어 및 프레임워크 선택에 영향을 미치는 요인에 대한 실용적인 통찰력을 제공합니다. 또한, 이 연구는 45개의 오픈소스 GitHub 저장소에서 코드 품질을 검토함으로써 개발의 모범 사례를 탐구합니다. 연구는 반자동 SonarQube 평가를 사용하여 LOC 및 코드 스멜을 평가함으로써 특정 언어나 프레임워크 선택이 코드 유지 관리 및 개발 효율성에 미치는 영향을 결정합니다. 예비 결과는 두 접근 방식에서 생성된 코드 품질의 차이를 보여주며, 개발자가 코드 스멜을 줄이고 프로젝트 유지 관리를 개선하기 위해 언어와 프레임워크 선택을 최적화하는 데 도움이 되는 정보를 제공합니다.
-\end{eabstract}
-
-% \newpage
-% \begin{thankpage}
-% \input{thesis/thanks}
-% \end{thankpage}
+\input{chapters/additional-parts/abstract-ko.tex}
 
 \end{document}

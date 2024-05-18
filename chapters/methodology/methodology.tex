@@ -48,7 +48,7 @@ We decided to begin with the Flutter application to ensure a smooth development 
 \par
 It took us around 20 hours to complete the project, and the total number of files was 29. As the Figure \ref*{fig:flutter_app_str} shows, the project was divided into directories. The project is organized into several directories: blocks contain BLoC components for authentication and task management, managing logic, events, and states; constants directory includes global constants and routing configurations; models define the task data model; presentation houses UI screens for authentication, a dashboard with various widgets for displaying tasks based on their status, and a history page for viewing completed tasks or activity logs; repositories manage data operations related to authentication and tasks, interfacing with databases or APIs; services includes functionalities such as exporting task data to CSV files; and widgets provides general-purpose UI components used across the application. The \verb|"main.dart"| file acts as the app's entry point, setting up the environment and the root widget tree. The project structure suggests focusing on modularity and clean architecture to facilitate maintenance and scalability. While working on this project, we tried to follow the clean architecture mentioned in the book \cite{martin2009clean} by Robert Cecil Martin (also known as Uncle Bob).
 \subsubsection{Kotlin Application Development} 
-We developed a Kotlin-based Kanban board application after completing our initial Flutter project. Following our successful Flutter project, we adopted Kotlin as our first choice for Android Native development. Our Kotlin project was designed to support a Kanban board application and consisted of 26 .kt files and 30 .xml files. The development process took approximately 24 hours, primarily due to my limited familiarity with the Kotlin Application Development.
+We developed a Kotlin-based Kanban board application after completing our initial Flutter project. Following our successful Flutter project, we adopted Kotlin as our first choice for Android Native development. Our Kotlin project was designed to support a Kanban board application and consisted of 26 *.kt files and 30 *.xml files. The development process took approximately 24 hours, primarily due to my limited familiarity with the Kotlin Application Development.
 However, despite these challenges, we leveraged the Model-View-ViewModel (MVVM) architecture to enhance maintainability and facilitate a clear separation of concerns. The MVVM \cite{Sewak_2023} architecture enabled us to segregate user interface logic from business logic, with ViewModel managing the UI-related data that can persist through configuration changes. At the same time, View handled the layout and display, and Model managed the data and business logic.
 \begin{figure}[htbp]
     \centering
@@ -104,9 +104,9 @@ Once completed, we confirmed that no existing Docker containers were running usi
 \begin{lstlisting}[language=bash]
     $ docker ps -a 
 \end{lstlisting}
-before installing our new instance. With the command \textbf{docker run -d — name sonarqube -p 9000:9000 sonarqube:9.9.4.87374-community} we started the SonarQube server. A subsequent \textbf{docker ps -a} check confirmed that SonarQube was active and running without issues.
+before installing our new instance. With the command \texttt{docker run -d — name\newline sonarqube -p 9000:9000 sonarqube:9.9.4.87374-community} we started the SonarQube server. A subsequent \texttt{docker ps -a} check confirmed that SonarQube was active and running without issues.
 \par
-To verify the setup, we accessed SonarQube at the local URL http://localhost:9000/ and logged in using the default credentials: Username \textbf{admin} and Password \textbf{admin}. Seeing that SonarQube was correctly set up and operational with this step.
+To verify the setup, we accessed SonarQube at the local URL http://localhost:9000/ and logged in using the default credentials: Username \texttt{admin} and Password \texttt{admin}. Seeing that SonarQube was correctly set up and operational with this step.
 \par
 Since SonarQube does not support Dart natively, the programming language we used for our Flutter project, we installed a plugin called sonar-flutter \cite{flutter_sonar}, which was developed by the Flutter community. This plugin allowed us to integrate Dart code analysis into our SonarQube environment, enabling us to maintain high code quality standards and consistency across our development efforts. This integration proved essential for leveraging Sonarqube's capabilities to meet our project's needs.
 \subsubsection{Applying SonarQube Analysis to the Kanban Board Project}
@@ -114,9 +114,9 @@ The integration of SonarQube into the development process of the Kanban board ap
 
 \textbf{Kotlin-Based Kanban Board Implementation:}
 \begin{enumerate}
-    \item Setting Up SonarQube: Docker was used to host SonarQube, ensuring a consistent environment. The SonarQube server was accessible at http://localhost:9000 after initiating the Docker container with the command: \textbf{docker run -d — name sonarqube -p 9000:9000 sonarqube: 9.9.4.87374-community}
+    \item Setting Up SonarQube: Docker was used to host SonarQube, ensuring a consistent environment. The SonarQube server was accessible at http://localhost:9000 after initiating the Docker container with the command: \texttt{docker run -d — name sonarqube -p 9000:9000 sonarqube: 9.9.4.87374-community}
     \item Project Configuration: In the Kotlin project, the SonarQube Gradle plugin was added to the build.gradle file (apply plugin: \verb|"org.sonarqube"|), and necessary configurations were set within the sonarqube block to specify the project key, name, sources, and exclusions.
-    \item Running the Analysis: The analysis was triggered via the command \textbf{./gradlew sonarqube -Dsonar.host.url=http://localhost:9000 -Dsonar.login=\$TOKEN} sending the code metrics to SonarQube and generating a detailed report on code quality.
+    \item Running the Analysis: The analysis was triggered via the command \texttt{./gradlew sonarqube -Dsonar.host.url=http://localhost:9000 \newline-Dsonar.login=\$TOKEN} sending the code metrics to SonarQube and generating a detailed report on code quality.
 \end{enumerate}
 
 \textbf{Java-Based Kanban Board Implementation:}
