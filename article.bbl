@@ -2,13 +2,13 @@
 
 \bibitem{statista2023}
 {Statista}.
-\newblock {Number of mobile app downloads worldwide from 2019 to 2027, by segment (in million downloads) [Graph]}.
+\newblock {Number of Mobile App Downloads Worldwide from 2019 to 2027, by Segment (in million downloads) [Graph]}.
 \newblock \url{https://www.statista.com/forecasts/1262881/mobile-app-download-worldwide-by-segment}, 2023.
 \newblock [Online; accessed 19-October-2023].
 
 \bibitem{jetbrains2022}
 {JetBrains}.
-\newblock {Cross-platform mobile frameworks used by software developers worldwide from 2019 to 2022 [Graph]}.
+\newblock {Cross-Platform Mobile Frameworks Used by Software Developers Worldwide from 2019 to 2022 [Graph]}.
 \newblock \url{https://www.statista.com/statistics/869224/worldwide-software-developer-working-hours/}, 2022.
 \newblock [Online; accessed 16-July-2022].
 
@@ -79,7 +79,7 @@ Rajiv~D Banker, Gordon~B Davis, and Sandra~A Slaughter.
 
 \bibitem{graziotin2014happy}
 Daniel Graziotin, Xiaofeng Wang, and Pekka Abrahamsson.
-\newblock Happy software developers solve problems better: psychological measurements in empirical software engineering.
+\newblock Happy software developers solve problems better: Psychological measurements in empirical software engineering.
 \newblock {\em PeerJ}, 2:e289, 2014.
 
 \bibitem{agrawal2007software}
@@ -93,7 +93,7 @@ Daniel Graziotin, Fabian Fagerholm, Xiaofeng Wang, and Pekka Abrahamsson.
 \newblock {\em Journal of Systems and Software}, 140:32--47, 2018.
 
 \bibitem{raffles1817history}
-THOS~STAMFORD RAFFLES.
+Thos~Stamford Raffles.
 \newblock The history of java.
 \newblock {\em The Monthly Magazine}, 43(300):598--622, 1817.
 
@@ -232,7 +232,7 @@ URL: \url{https://pub.dev/packages/provider}.
 
 \bibitem{martin2009clean}
 Robert~C Martin.
-\newblock {\em Clean code: a handbook of agile software craftsmanship}.
+\newblock {\em Clean Code: a Handbook of Agile Software Craftsmanship}.
 \newblock Pearson Education, 2009.
 
 \bibitem{Sewak_2023}
