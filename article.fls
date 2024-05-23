@@ -282,11 +282,6 @@ INPUT ./chapters/introduction/intro.tex
 INPUT ./chapters/introduction/intro.tex
 INPUT chapters/introduction/intro.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./img/num_of_downloads.png
-INPUT ./img/num_of_downloads.png
-INPUT ./img/num_of_downloads.png
-INPUT ./img/num_of_downloads.png
-INPUT ./img/num_of_downloads.png
 INPUT ./img/cross_platform-sts.png
 INPUT ./img/cross_platform-sts.png
 INPUT ./img/cross_platform-sts.png

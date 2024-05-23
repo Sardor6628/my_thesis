@@ -1,41 +1,10 @@
 \begin{thebibliography}{10}
 
-\bibitem{statista2023}
-{Statista}.
-\newblock {Number of Mobile App Downloads Worldwide from 2019 to 2027, by Segment (in million downloads) [Graph]}.
-\newblock \url{https://www.statista.com/forecasts/1262881/mobile-app-download-worldwide-by-segment}, 2023.
-\newblock Accessed: 22-May-2024.
-
 \bibitem{jetbrains2022}
 {JetBrains}.
 \newblock {Cross-Platform Mobile Frameworks Used by Software Developers Worldwide from 2019 to 2022 [Graph]}.
 \newblock \url{https://www.statista.com/statistics/869224/worldwide-software-developer-working-hours/}, 2022.
 \newblock [Online; accessed 22-May-2024].
-
-\bibitem{li2022impact}
-Yuhua Li, Xiheng Gong, Jingyi Zhang, Ziwei Xiang, and Chengjun Liao.
-\newblock {The Impact of Mobile Payment on Household Poverty Vulnerability: A Study Based on CHFS2017 in China}.
-\newblock {\em International Journal of Environmental Research and Public Health}, 19(21):14001, 2022.
-
-\bibitem{omar2022predictors}
-Quistina Omar, Ching~Seng Yap, Poh~Ling Ho, and William Keling.
-\newblock {Predictors of Behavioral Intention to Adopt E-AgriFinance App Among the Farmers in Sarawak, Malaysia}.
-\newblock {\em British Food Journal}, 124(1):239--254, 2022.
-
-\bibitem{wang2020mobile}
-Xue Wang.
-\newblock {Mobile Payment and Informal Business: Evidence from China's Household Panel Data}.
-\newblock {\em China \& World Economy}, 28(3):90--115, 2020.
-
-\bibitem{rybakovas2022financial}
-Egidijus Rybakovas and Gerda Zigiene.
-\newblock {Financial Innovation for Financial Inclusion: Mapping Potential Access to Finance}.
-\newblock In {\em European Conference on Innovation and Entrepreneurship}, volume~17, pages 451--457, 2022.
-
-\bibitem{dahne2015smartphone}
-Jennifer Dahne and Carl~W Lejuez.
-\newblock {Smartphone and Mobile Application Utilization Prior to and Following Treatment among Individuals Enrolled in Residential Substance use Treatment}.
-\newblock {\em Journal of substance abuse treatment}, 58:95--99, 2015.
 
 \bibitem{zhang2023entertainment}
 Yingxin Zhang, Yijing Du, and Yan Li.
@@ -52,16 +21,6 @@ Kamil Wasilewski and Wojciech Zabierowski.
 \newblock {A Comparison of Java, Flutter and Kotlin/Native Technologies for Sensor Data-Driven Applications}.
 \newblock {\em Sensors}, 21(10):3324, 2021.
 
-\bibitem{ardito2020effectiveness}
-Luca Ardito, Riccardo Coppola, Giovanni Malnati, and Marco Torchiano.
-\newblock {Effectiveness of Kotlin vs. Java in Android App Development Tasks}.
-\newblock {\em Information and Software Technology}, 127:106374, 2020.
-
-\bibitem{coppola2019characterizing}
-Riccardo Coppola, Luca Ardito, and Marco Torchiano.
-\newblock {Characterizing the Transition to Kotlin of Android Apps: a Study on F-droid, Play Store, and Github}.
-\newblock In {\em Proceedings of the 3rd ACM SIGSOFT International Workshop on App Market Analytics}, pages 8--14, 2019.
-
 \bibitem{prasetia2023development}
 Riofebri~Prasetia Prasetia and Lutfi Rahmatuti~Maghfiroh Maghfiroh.
 \newblock {Development of FASIH Application for the Badan Pusat Statistisk using Flutter Framework}.
@@ -77,21 +36,6 @@ Dieter Meiller.
 Rajiv~D Banker, Gordon~B Davis, and Sandra~A Slaughter.
 \newblock {Software development practices, software complexity, and software maintenance performance: A field study}.
 \newblock {\em Management science}, 44(4):433--450, 1998.
-
-\bibitem{graziotin2014happy}
-Daniel Graziotin, Xiaofeng Wang, and Pekka Abrahamsson.
-\newblock {Happy Software Developers Solve Problems Better: Psychological Measurements in Empirical Software Engineering}.
-\newblock {\em PeerJ}, 2:e289, 2014.
-
-\bibitem{agrawal2007software}
-Manish Agrawal and Kaushal Chari.
-\newblock {Software Effort, Quality, and Cycle Time: A Study of CMM Level 5 Projects}.
-\newblock {\em IEEE Transactions on software engineering}, 33(3):145--156, 2007.
-
-\bibitem{graziotin2018happens}
-Daniel Graziotin, Fabian Fagerholm, Xiaofeng Wang, and Pekka Abrahamsson.
-\newblock {What Happens When Software Developers are (un) happy}.
-\newblock {\em Journal of Systems and Software}, 140:32--47, 2018.
 
 \bibitem{raffles1817history}
 Thos~Stamford Raffles.
@@ -167,6 +111,11 @@ Geoffrey Hecht, Romain Rouvoy, Naouel Moha, and Laurence Duchien.
 Maxime Lamothe, Weiyi Shang, and Tse-Hsun~Peter Chen.
 \newblock {A3: Assisting Android Api Migrations Using Code Examples}.
 \newblock {\em IEEE Transactions on Software Engineering}, 48(2):417--431, 2020.
+
+\bibitem{ardito2020effectiveness}
+Luca Ardito, Riccardo Coppola, Giovanni Malnati, and Marco Torchiano.
+\newblock {Effectiveness of Kotlin vs. Java in Android App Development Tasks}.
+\newblock {\em Information and Software Technology}, 127:106374, 2020.
 
 \bibitem{mamunimproving}
 MAA Mamun, Miroslaw Staron, Christian Berger, Regina Hebig, and J{\"o}rgen Hansson.
@@ -295,6 +244,57 @@ Insideapp-Oss.
 \bibitem{sonarQube}
 {SonarQube Web API Documentation}.
 \newblock \url{https://docs.sonarsource.com/sonarqube/latest/extension-guide/web-api/}, 2024.
+\newblock Accessed: 22-May-2024.
+
+\bibitem{li2022impact}
+Yuhua Li, Xiheng Gong, Jingyi Zhang, Ziwei Xiang, and Chengjun Liao.
+\newblock {The Impact of Mobile Payment on Household Poverty Vulnerability: A Study Based on CHFS2017 in China}.
+\newblock {\em International Journal of Environmental Research and Public Health}, 19(21):14001, 2022.
+
+\bibitem{omar2022predictors}
+Quistina Omar, Ching~Seng Yap, Poh~Ling Ho, and William Keling.
+\newblock {Predictors of Behavioral Intention to Adopt E-AgriFinance App Among the Farmers in Sarawak, Malaysia}.
+\newblock {\em British Food Journal}, 124(1):239--254, 2022.
+
+\bibitem{wang2020mobile}
+Xue Wang.
+\newblock {Mobile Payment and Informal Business: Evidence from China's Household Panel Data}.
+\newblock {\em China \& World Economy}, 28(3):90--115, 2020.
+
+\bibitem{rybakovas2022financial}
+Egidijus Rybakovas and Gerda Zigiene.
+\newblock {Financial Innovation for Financial Inclusion: Mapping Potential Access to Finance}.
+\newblock In {\em European Conference on Innovation and Entrepreneurship}, volume~17, pages 451--457, 2022.
+
+\bibitem{dahne2015smartphone}
+Jennifer Dahne and Carl~W Lejuez.
+\newblock {Smartphone and Mobile Application Utilization Prior to and Following Treatment among Individuals Enrolled in Residential Substance use Treatment}.
+\newblock {\em Journal of substance abuse treatment}, 58:95--99, 2015.
+
+\bibitem{coppola2019characterizing}
+Riccardo Coppola, Luca Ardito, and Marco Torchiano.
+\newblock {Characterizing the Transition to Kotlin of Android Apps: a Study on F-droid, Play Store, and Github}.
+\newblock In {\em Proceedings of the 3rd ACM SIGSOFT International Workshop on App Market Analytics}, pages 8--14, 2019.
+
+\bibitem{graziotin2014happy}
+Daniel Graziotin, Xiaofeng Wang, and Pekka Abrahamsson.
+\newblock {Happy Software Developers Solve Problems Better: Psychological Measurements in Empirical Software Engineering}.
+\newblock {\em PeerJ}, 2:e289, 2014.
+
+\bibitem{agrawal2007software}
+Manish Agrawal and Kaushal Chari.
+\newblock {Software Effort, Quality, and Cycle Time: A Study of CMM Level 5 Projects}.
+\newblock {\em IEEE Transactions on software engineering}, 33(3):145--156, 2007.
+
+\bibitem{graziotin2018happens}
+Daniel Graziotin, Fabian Fagerholm, Xiaofeng Wang, and Pekka Abrahamsson.
+\newblock {What Happens When Software Developers are (un) happy}.
+\newblock {\em Journal of Systems and Software}, 140:32--47, 2018.
+
+\bibitem{statista2023}
+{Statista}.
+\newblock {Number of Mobile App Downloads Worldwide from 2019 to 2027, by Segment (in million downloads) [Graph]}.
+\newblock \url{https://www.statista.com/forecasts/1262881/mobile-app-download-worldwide-by-segment}, 2023.
 \newblock Accessed: 22-May-2024.
 
 \end{thebibliography}

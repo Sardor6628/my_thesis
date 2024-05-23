@@ -12,10 +12,10 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: article.bib
-Warning--can't use both volume and number fields in rybakovas2022financial
 Warning--empty year in mamunimproving
 Warning--empty journal in guamansonarqube
 Warning--empty year in guamansonarqube
+Warning--can't use both volume and number fields in rybakovas2022financial
 You've used 58 entries,
             2522 wiz_defined-function locations,
             898 strings with 16641 characters,

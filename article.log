@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.3)  23 MAY 2024 12:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.3)  23 MAY 2024 13:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -811,12 +811,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
 
-] (./article.toc [1]
-Overfull \hbox (1.22342pt too wide) in paragraph at lines 25--25
+] (./article.toc
+Overfull \hbox (1.22342pt too wide) in paragraph at lines 20--20
  [][] []\OT1/cmr/m/n/10.95 Applying Sonar-Qube Anal-y-sis to the Kan-ban Board Project []  
  []
 
-)
+[1])
 \tf@toc=\write4
 \openout4 = `article.toc'.
 
@@ -838,72 +838,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--57
 
  []
 
-[5] (./chapters/additional-parts/abstract-en.tex) [6] (./chapters/introduction/intro.tex
-<img/num_of_downloads.png, id=32, 953.5625pt x 555.07375pt>
-File: img/num_of_downloads.png Graphic file (type png)
-<use img/num_of_downloads.png>
-Package pdftex.def Info: img/num_of_downloads.png  used on input line 11.
-(pdftex.def)             Requested size: 429.09917pt x 249.78087pt.
-
-Overfull \hbox (10.84549pt too wide) in paragraph at lines 11--12
- [][] 
- []
-
-[1] [2 <./img/num_of_downloads.png>] [3] [4] [5] [6] [7]
-<img/cross_platform-sts.png, id=57, 951.555pt x 569.12625pt>
+[5] (./chapters/additional-parts/abstract-en.tex) [6] (./chapters/introduction/intro.tex [1] [2] [3]
+<img/cross_platform-sts.png, id=41, 951.555pt x 569.12625pt>
 File: img/cross_platform-sts.png Graphic file (type png)
 <use img/cross_platform-sts.png>
-Package pdftex.def Info: img/cross_platform-sts.png  used on input line 65.
+Package pdftex.def Info: img/cross_platform-sts.png  used on input line 19.
 (pdftex.def)             Requested size: 428.19579pt x 256.10445pt.
 
-Overfull \hbox (9.94211pt too wide) in paragraph at lines 65--66
+Overfull \hbox (9.94211pt too wide) in paragraph at lines 19--20
  [][] 
  []
 
-[8 <./img/cross_platform-sts.png>] [9] [10]) [11] (./chapters/litereture-review/ltr.tex [12
+[4 <./img/cross_platform-sts.png>] [5] [6]) [7] (./chapters/litereture-review/ltr.tex [8
 
-] [13] [14] [15] [16] [17]
+] [9] [10] [11] [12] [13]
 LaTeX Font Info:    Trying to load font information for LUC+uhcmj on input line 50.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
 File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
 )
 Missing character: There is no ^^A in font uwmj03!
-[18]
-<img/graph_lr.png, id=96, 469.755pt x 205.76875pt>
+[14]
+<img/graph_lr.png, id=81, 469.755pt x 205.76875pt>
 File: img/graph_lr.png Graphic file (type png)
 <use img/graph_lr.png>
 Package pdftex.def Info: img/graph_lr.png  used on input line 55.
 (pdftex.def)             Requested size: 375.80452pt x 164.6152pt.
- [19] [20 <./img/graph_lr.png>] [21] [22]) [23] (./chapters/methodology/methodology.tex [24
+ [15] [16 <./img/graph_lr.png>] [17] [18]) [19] (./chapters/methodology/methodology.tex [20
 
-] [25]
+] [21]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 24.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<img/kanban_board.png, id=120, 469.755pt x 246.9225pt>
+<img/kanban_board.png, id=105, 469.755pt x 246.9225pt>
 File: img/kanban_board.png Graphic file (type png)
 <use img/kanban_board.png>
 Package pdftex.def Info: img/kanban_board.png  used on input line 31.
 (pdftex.def)             Requested size: 399.29364pt x 209.88509pt.
-<img/flutter_app_str.png, id=121, 311.1625pt x 608.2725pt>
+<img/flutter_app_str.png, id=106, 311.1625pt x 608.2725pt>
 File: img/flutter_app_str.png Graphic file (type png)
 <use img/flutter_app_str.png>
 Package pdftex.def Info: img/flutter_app_str.png  used on input line 42.
 (pdftex.def)             Requested size: 248.93034pt x 486.61867pt.
- [26{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [27 <./img/kanban_board.png>] [28 <./img/flutter_app_str.png>]
-<img/kotlin_project_struct.png, id=134, 469.755pt x 427.5975pt>
+ [22{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [23 <./img/kanban_board.png>] [24 <./img/flutter_app_str.png>]
+<img/kotlin_project_struct.png, id=120, 469.755pt x 427.5975pt>
 File: img/kotlin_project_struct.png Graphic file (type png)
 <use img/kotlin_project_struct.png>
 Package pdftex.def Info: img/kotlin_project_struct.png  used on input line 56.
 (pdftex.def)             Requested size: 375.80452pt x 342.07846pt.
- [29] [30 <./img/kotlin_project_struct.png>]
-<img/java_project_struct.png, id=143, 469.755pt x 559.08875pt>
+ [25] [26 <./img/kotlin_project_struct.png>]
+<img/java_project_struct.png, id=128, 469.755pt x 559.08875pt>
 File: img/java_project_struct.png Graphic file (type png)
 <use img/java_project_struct.png>
 Package pdftex.def Info: img/java_project_struct.png  used on input line 70.
 (pdftex.def)             Requested size: 375.80452pt x 447.27159pt.
- [31] [32 <./img/java_project_struct.png>] [33] [34] (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+ [27] [28 <./img/java_project_struct.png>] [29] [30] (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
@@ -912,7 +901,7 @@ Overfull \hbox (22.75726pt too wide) in paragraph at lines 108--109
 \OT1/pcr/m/n/10.95 sonarqube -p 9000:9000 sonarqube:9.9.4.87374-community \OT1/cmr/m/n/10.95 Sonar-Qube server
  []
 
-[35{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[31{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 120.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
@@ -921,8 +910,8 @@ Overfull \hbox (0.5844pt too wide) in paragraph at lines 125--126
 []\OT1/cmr/m/n/10.95 SonarQube In-stal-la-tion and Con-fig-u-ra-tion: Sim-i-lar steps were fol-lowed in the Kotlin
  []
 
-[36]
-<img/sonarqube_dashboard.png, id=165, 469.755pt x 242.9075pt>
+[32]
+<img/sonarqube_dashboard.png, id=150, 469.755pt x 242.9075pt>
 File: img/sonarqube_dashboard.png Graphic file (type png)
 <use img/sonarqube_dashboard.png>
 Package pdftex.def Info: img/sonarqube_dashboard.png  used on input line 131.
@@ -932,61 +921,61 @@ Overfull \hbox (41.98154pt too wide) in paragraph at lines 138--139
 []\OT1/cmr/m/n/10.95 Project Con-fig-u-ra-tion for Flut-ter: In the Flut-ter project di-rec-tory, a sonar-project.properties
  []
 
-[37 <./img/sonarqube_dashboard.png>]) [38] [39] (./chapters/results/results.tex [40
+[33 <./img/sonarqube_dashboard.png>]) [34] [35] (./chapters/results/results.tex [36
 
-] [41]
-<img/JAVASOLO.png, id=183, 698.61pt x 372.39125pt>
+] [37]
+<img/JAVASOLO.png, id=168, 698.61pt x 372.39125pt>
 File: img/JAVASOLO.png Graphic file (type png)
 <use img/JAVASOLO.png>
 Package pdftex.def Info: img/JAVASOLO.png  used on input line 37.
 (pdftex.def)             Requested size: 405.19408pt x 215.98708pt.
- [42]
-<img/KOTLINSOLO.png, id=188, 622.325pt x 372.39125pt>
+ [38]
+<img/KOTLINSOLO.png, id=172, 622.325pt x 372.39125pt>
 File: img/KOTLINSOLO.png Graphic file (type png)
 <use img/KOTLINSOLO.png>
 Package pdftex.def Info: img/KOTLINSOLO.png  used on input line 48.
 (pdftex.def)             Requested size: 360.94875pt x 215.98708pt.
-<img/FLUTTERSOLO.png, id=189, 699.61375pt x 372.39125pt>
+<img/FLUTTERSOLO.png, id=173, 699.61375pt x 372.39125pt>
 File: img/FLUTTERSOLO.png Graphic file (type png)
 <use img/FLUTTERSOLO.png>
 Package pdftex.def Info: img/FLUTTERSOLO.png  used on input line 55.
 (pdftex.def)             Requested size: 405.77626pt x 215.98708pt.
-<img/totalsolo.png, id=190, 602.25pt x 372.39125pt>
+<img/totalsolo.png, id=174, 602.25pt x 372.39125pt>
 File: img/totalsolo.png Graphic file (type png)
 <use img/totalsolo.png>
 Package pdftex.def Info: img/totalsolo.png  used on input line 65.
 (pdftex.def)             Requested size: 349.30524pt x 215.98708pt.
- [43 <./img/JAVASOLO.png>] [44 <./img/KOTLINSOLO.png> <./img/FLUTTERSOLO.png>]) (./chapters/discussion/discussion.tex [45 <./img/totalsolo.png>] [46]) [47] [48] (./chapters/conclusion/conclusion.tex [49
+ [39 <./img/JAVASOLO.png>] [40 <./img/KOTLINSOLO.png> <./img/FLUTTERSOLO.png>]) (./chapters/discussion/discussion.tex [41 <./img/totalsolo.png>] [42]) [43] [44] (./chapters/conclusion/conclusion.tex [45
 
-]) [50] (./article.bbl [51
+]) [46] (./article.bbl [47
 
 
-] [52]
-Underfull \hbox (badness 3724) in paragraph at lines 102--105
+]
+Underfull \hbox (badness 3724) in paragraph at lines 46--49
 []\OT1/cmr/m/n/10.95 Gustavo Pinto, Wes-l-ley Tor-res, Ben-ito Fer-nan-des, Fer-nando Cas-tor, and
  []
 
-[53] [54]
-Underfull \hbox (badness 3375) in paragraph at lines 182--185
+[48] [49]
+Underfull \hbox (badness 3375) in paragraph at lines 131--134
 []\OT1/cmr/m/n/10.95 Ifeanyi Row-land Onyen-weaku, Michael Scott Brown, Michael Pelosi, and
  []
 
-[55] [56]
-Underfull \hbox (badness 10000) in paragraph at lines 249--253
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 198--202
 []\OT1/cmr/m/n/10.95 Jaykishan Se-wak.  MVVM Ar-chi-tec-ture in An-droid Us-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--253
+Underfull \hbox (badness 10000) in paragraph at lines 198--202
 \OT1/cmr/m/n/10.95 Kotlin: A Prac-ti-cal Guide.  $https : / / medium . com / @jecky999 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--253
+Underfull \hbox (badness 10000) in paragraph at lines 198--202
 \OT1/cmr/m/n/10.95 mvvm-[]architecture-[]in-[]android-[]using-[]kotlin-[]a-[]practical-[]guide-[]73f8de1d9c58$, Jun
  []
 
-[57]) [58] (./chapters/appendix/appendix.tex
+[51] [52] [53]) [54] (./chapters/appendix/appendix.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / Sardor6628 /
  []
@@ -1216,48 +1205,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / prateekmedia /
  []
 
-[59
+[55
 
-] [60] [61]
+] [56] [57]
 \openout2 = `chapters/appendix/python-script-1.aux'.
 
  (./chapters/appendix/python-script-1.tex (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
-) [62
+) [58
 
-] [63] [64] [65]) [66]
+] [59] [60] [61]) [62]
 \openout2 = `chapters/appendix/python-script-2.aux'.
 
- (./chapters/appendix/python-script-2.tex [67
+ (./chapters/appendix/python-script-2.tex [63
 
 
 
-] [68] [69]) [70]
+] [64] [65]) [66]
 \openout2 = `chapters/appendix/task-model-java.aux'.
 
  (./chapters/appendix/task-model-java.tex
 Package color Info: Redefining color listingcolor on input line 1.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
-) [71
+) [67
 
 
 
-]) [72]
+]) [68]
 \openout2 = `chapters/appendix/task-model-kotlin.aux'.
 
- (./chapters/appendix/task-model-kotlin.tex) [73
+ (./chapters/appendix/task-model-kotlin.tex) [69
 
 
 
 ]
 \openout2 = `chapters/appendix/task-model-dart.aux'.
 
- (./chapters/appendix/task-model-dart.tex) [74
+ (./chapters/appendix/task-model-dart.tex) [70
 
 
 
-]) (./chapters/additional-parts/abstract-ko.tex) [75
+]) (./chapters/additional-parts/abstract-ko.tex) [71
 
 
 
@@ -1269,18 +1258,18 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13108 strings out of 474116
- 220707 string characters out of 5743683
+ 13100 strings out of 474116
+ 220469 string characters out of 5743683
  2105187 words of memory out of 5000000
- 35098 multiletter control sequences out of 15000+600000
+ 35090 multiletter control sequences out of 15000+600000
  591323 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,16n,99p,2376b,1891s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on article.pdf (83 pages, 3034244 bytes).
+Output written on article.pdf (79 pages, 2961473 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 332 compressed objects within 4 object streams
+ 527 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
