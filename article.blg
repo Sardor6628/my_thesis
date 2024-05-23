@@ -14,42 +14,38 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: article.bib
 Warning--can't use both volume and number fields in rybakovas2022financial
 Warning--empty year in mamunimproving
-Warning--all relevant fields are empty in bloc
-Warning--all relevant fields are empty in getX
-Warning--all relevant fields are empty in provider
 Warning--empty journal in guamansonarqube
 Warning--empty year in guamansonarqube
-Warning--all relevant fields are empty in sonarQube
 You've used 58 entries,
             2522 wiz_defined-function locations,
-            891 strings with 16349 characters,
-and the built_in function-call counts, 20731 in all, are:
-= -- 2039
-> -- 658
+            898 strings with 16641 characters,
+and the built_in function-call counts, 21026 in all, are:
+= -- 2110
+> -- 675
 < -- 21
-+ -- 217
-- -- 159
-* -- 956
-:= -- 2600
-add.period$ -- 175
++ -- 221
+- -- 163
+* -- 932
+:= -- 2704
+add.period$ -- 191
 call.type$ -- 58
-change.case$ -- 52
+change.case$ -- 57
 chr.to.int$ -- 0
-cite$ -- 66
-duplicate$ -- 693
-empty$ -- 2330
-format.name$ -- 159
-if$ -- 5827
+cite$ -- 62
+duplicate$ -- 677
+empty$ -- 2320
+format.name$ -- 163
+if$ -- 5902
 int.to.chr$ -- 0
 int.to.str$ -- 58
 missing$ -- 48
-newline$ -- 284
-num.names$ -- 53
-pop$ -- 445
+newline$ -- 300
+num.names$ -- 57
+pop$ -- 447
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1664
+skip$ -- 1653
 stack$ -- 0
 substring$ -- 1089
 swap$ -- 225
@@ -57,8 +53,8 @@ text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 8
-while$ -- 152
+warning$ -- 4
+while$ -- 156
 width$ -- 60
-write$ -- 613
-(There were 8 warnings)
+write$ -- 651
+(There were 4 warnings)

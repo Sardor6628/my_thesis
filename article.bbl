@@ -4,281 +4,297 @@
 {Statista}.
 \newblock {Number of Mobile App Downloads Worldwide from 2019 to 2027, by Segment (in million downloads) [Graph]}.
 \newblock \url{https://www.statista.com/forecasts/1262881/mobile-app-download-worldwide-by-segment}, 2023.
-\newblock [Online; accessed 19-October-2023].
+\newblock Accessed: 22-May-2024.
 
 \bibitem{jetbrains2022}
 {JetBrains}.
 \newblock {Cross-Platform Mobile Frameworks Used by Software Developers Worldwide from 2019 to 2022 [Graph]}.
 \newblock \url{https://www.statista.com/statistics/869224/worldwide-software-developer-working-hours/}, 2022.
-\newblock [Online; accessed 16-July-2022].
+\newblock [Online; accessed 22-May-2024].
 
 \bibitem{li2022impact}
 Yuhua Li, Xiheng Gong, Jingyi Zhang, Ziwei Xiang, and Chengjun Liao.
-\newblock The impact of mobile payment on household poverty vulnerability: A study based on chfs2017 in china.
+\newblock {The Impact of Mobile Payment on Household Poverty Vulnerability: A Study Based on CHFS2017 in China}.
 \newblock {\em International Journal of Environmental Research and Public Health}, 19(21):14001, 2022.
 
 \bibitem{omar2022predictors}
 Quistina Omar, Ching~Seng Yap, Poh~Ling Ho, and William Keling.
-\newblock Predictors of behavioral intention to adopt e-agrifinance app among the farmers in sarawak, malaysia.
+\newblock {Predictors of Behavioral Intention to Adopt E-AgriFinance App Among the Farmers in Sarawak, Malaysia}.
 \newblock {\em British Food Journal}, 124(1):239--254, 2022.
 
 \bibitem{wang2020mobile}
 Xue Wang.
-\newblock Mobile payment and informal business: Evidence from china's household panel data.
+\newblock {Mobile Payment and Informal Business: Evidence from China's Household Panel Data}.
 \newblock {\em China \& World Economy}, 28(3):90--115, 2020.
 
 \bibitem{rybakovas2022financial}
 Egidijus Rybakovas and Gerda Zigiene.
-\newblock Financial innovation for financial inclusion: Mapping potential access to finance.
+\newblock {Financial Innovation for Financial Inclusion: Mapping Potential Access to Finance}.
 \newblock In {\em European Conference on Innovation and Entrepreneurship}, volume~17, pages 451--457, 2022.
 
 \bibitem{dahne2015smartphone}
 Jennifer Dahne and Carl~W Lejuez.
-\newblock Smartphone and mobile application utilization prior to and following treatment among individuals enrolled in residential substance use treatment.
+\newblock {Smartphone and Mobile Application Utilization Prior to and Following Treatment among Individuals Enrolled in Residential Substance use Treatment}.
 \newblock {\em Journal of substance abuse treatment}, 58:95--99, 2015.
 
 \bibitem{zhang2023entertainment}
 Yingxin Zhang, Yijing Du, and Yan Li.
-\newblock Entertainment apps, limited attention and investment performance.
+\newblock {Entertainment Apps, Limited Attention and Investment Performance}.
 \newblock {\em Frontiers in Psychology}, 14:1118797, 2023.
 
 \bibitem{biorn2020empirical}
 Andreas Bi{\o}rn-Hansen, Christoph Rieger, Tor-Morten Gr{\o}nli, Tim~A Majchrzak, and Gheorghita Ghinea.
-\newblock An empirical investigation of performance overhead in cross-platform mobile development frameworks.
+\newblock {An Empirical Investigation of Performance Overhead in Cross-Platform Mobile Development Frameworks}.
 \newblock {\em Empirical Software Engineering}, 25:2997--3040, 2020.
 
 \bibitem{wasilewski2021comparison}
 Kamil Wasilewski and Wojciech Zabierowski.
-\newblock A comparison of java, flutter and kotlin/native technologies for sensor data-driven applications.
+\newblock {A Comparison of Java, Flutter and Kotlin/Native Technologies for Sensor Data-Driven Applications}.
 \newblock {\em Sensors}, 21(10):3324, 2021.
 
 \bibitem{ardito2020effectiveness}
 Luca Ardito, Riccardo Coppola, Giovanni Malnati, and Marco Torchiano.
-\newblock Effectiveness of kotlin vs. java in android app development tasks.
+\newblock {Effectiveness of Kotlin vs. Java in Android App Development Tasks}.
 \newblock {\em Information and Software Technology}, 127:106374, 2020.
 
 \bibitem{coppola2019characterizing}
 Riccardo Coppola, Luca Ardito, and Marco Torchiano.
-\newblock Characterizing the transition to kotlin of android apps: a study on f-droid, play store, and github.
+\newblock {Characterizing the Transition to Kotlin of Android Apps: a Study on F-droid, Play Store, and Github}.
 \newblock In {\em Proceedings of the 3rd ACM SIGSOFT International Workshop on App Market Analytics}, pages 8--14, 2019.
 
 \bibitem{prasetia2023development}
 Riofebri~Prasetia Prasetia and Lutfi Rahmatuti~Maghfiroh Maghfiroh.
-\newblock Development of fasih application for the badan pusat statistisk using flutter framework.
+\newblock {Development of FASIH Application for the Badan Pusat Statistisk using Flutter Framework}.
 \newblock In {\em Proceedings of The International Conference on Data Science and Official Statistics}, pages 798--809, 2023.
 
 \bibitem{Meiller_2022}
 Dieter Meiller.
-\newblock Flutter: The future of application development?, 2022.
-\newblock URL: \url{https://www.iadisportal.org/digital-library/flutter-the-future-of-application-development}.
+\newblock {Flutter: The Future of Application Development?}
+\newblock \url{https://www.iadisportal.org/digital-library/flutter-the-future-of-application-development}, 2022.
+\newblock Accessed: 22-May-2024.
 
 \bibitem{banker1998software}
 Rajiv~D Banker, Gordon~B Davis, and Sandra~A Slaughter.
-\newblock Software development practices, software complexity, and software maintenance performance: A field study.
+\newblock {Software development practices, software complexity, and software maintenance performance: A field study}.
 \newblock {\em Management science}, 44(4):433--450, 1998.
 
 \bibitem{graziotin2014happy}
 Daniel Graziotin, Xiaofeng Wang, and Pekka Abrahamsson.
-\newblock Happy software developers solve problems better: Psychological measurements in empirical software engineering.
+\newblock {Happy Software Developers Solve Problems Better: Psychological Measurements in Empirical Software Engineering}.
 \newblock {\em PeerJ}, 2:e289, 2014.
 
 \bibitem{agrawal2007software}
 Manish Agrawal and Kaushal Chari.
-\newblock Software effort, quality, and cycle time: A study of cmm level 5 projects.
+\newblock {Software Effort, Quality, and Cycle Time: A Study of CMM Level 5 Projects}.
 \newblock {\em IEEE Transactions on software engineering}, 33(3):145--156, 2007.
 
 \bibitem{graziotin2018happens}
 Daniel Graziotin, Fabian Fagerholm, Xiaofeng Wang, and Pekka Abrahamsson.
-\newblock What happens when software developers are (un) happy.
+\newblock {What Happens When Software Developers are (un) happy}.
 \newblock {\em Journal of Systems and Software}, 140:32--47, 2018.
 
 \bibitem{raffles1817history}
 Thos~Stamford Raffles.
-\newblock The history of java.
+\newblock {The History of Java.}
 \newblock {\em The Monthly Magazine}, 43(300):598--622, 1817.
 
 \bibitem{pinto2015large}
 Gustavo Pinto, Weslley Torres, Benito Fernandes, Fernando Castor, and Roberto~SM Barros.
-\newblock A large-scale study on the usage of java’s concurrent programming constructs.
+\newblock {A Large-Scale Study on the Usage of Java’s Concurrent Programming Constructs}.
 \newblock {\em Journal of Systems and Software}, 106:59--81, 2015.
 
 \bibitem{li2016accessing}
 Li~Li, Tegawend{\'e}~F Bissyand{\'e}, Yves Le~Traon, and Jacques Klein.
-\newblock Accessing inaccessible android apis: An empirical study.
+\newblock {Accessing Inaccessible Android Apis: An Empirical Study}.
 \newblock In {\em 2016 IEEE International Conference on Software Maintenance and Evolution (ICSME)}, pages 411--422. IEEE, 2016.
 
 \bibitem{king2020history}
 Paul King.
-\newblock A history of the groovy programming language.
+\newblock {A History of the Groovy Programming Language}.
 \newblock {\em Proceedings of the ACM on Programming Languages}, 4(HOPL):1--53, 2020.
 
 \bibitem{li2022mapping}
 Lu~Li and Yan Liu.
-\newblock Mapping modern jvm language code to analysis-friendly graphs: A pilot study with kotlin.
+\newblock {Mapping Modern JVM Language Code to Analysis-friendly Graphs: A Pilot Study with Kotlin.}
 \newblock In {\em SEKE}, pages 67--72, 2022.
 
 \bibitem{kartinah2023android}
 Dwi Kartinah.
-\newblock Android-based health post management application design clinics in indonesia.
+\newblock {Android-Based Health Post Management Application Design Clinics in Indonesia}.
 \newblock {\em International Journal Science and Technology}, 2(2):36--41, 2023.
 
 \bibitem{bouchemal2020scream}
 Nardjes Bouchemal, Aissa Serrar, Yehya Bouzeraa, and Naila Bouchmemal.
-\newblock Scream to survive (s2s): Intelligent system to life-saving in disasters relief.
+\newblock {Scream to Survive (S2S): Intelligent System to Life-Saving in Disasters Relief}.
 \newblock In {\em Machine Learning for Networking: Second IFIP TC 6 International Conference, MLN 2019, Paris, France, December 3--5, 2019, Revised Selected Papers 2}, pages 414--430. Springer, 2020.
 
 \bibitem{ernawati2021android}
 Siti Ernawati and Risa Wati.
-\newblock Android-based quran application on the flutter framework by using the fountain model.
+\newblock {Android-Based Quran Application On The Flutter Framework By Using The Fountain Model}.
 \newblock {\em Jurnal Riset Informatika}, 3(2):195--202, 2021.
 
 \bibitem{pratama2021pengembangan}
 Ardhya~Pandu Pratama and Made Kamisutara.
-\newblock Pengembangan sistem informasi akademik berbasis mobile menggunakan flutter di universitas narotama surabaya.
+\newblock {Pengembangan Sistem Informasi Akademik Berbasis Mobile Menggunakan Flutter Di Universitas Narotama Surabaya}.
 \newblock {\em Jurnal Ilmiah NERO}, 6(2):145--160, 2021.
 
 \bibitem{hegedHus2022static}
 P{\'e}ter Heged{\H{u}}s and Rudolf Ferenc.
-\newblock Static code analysis alarms filtering reloaded: A new real-world dataset and its ml-based utilization.
+\newblock {Static Code Analysis Alarms Filtering Reloaded: A New Real-World Dataset and its ML-Based Utilization}.
 \newblock {\em IEEE Access}, 10:55090--55101, 2022.
 
 \bibitem{mazuera2022taxonomy}
 Alejandro Mazuera-Rozo, Camilo Escobar-Vel{\'a}squez, Juan Espitia-Acero, David Vega-Guzm{\'a}n, Catia Trubiani, Mario Linares-V{\'a}squez, and Gabriele Bavota.
-\newblock Taxonomy of security weaknesses in java and kotlin android apps.
+\newblock {Taxonomy of Security Weaknesses in Java and Kotlin Android Apps}.
 \newblock {\em Journal of systems and software}, 187:111233, 2022.
 
 \bibitem{oliveira2020adoption}
 Victor Oliveira, Leopoldo Teixeira, and Felipe Ebert.
-\newblock On the adoption of kotlin on android development: A triangulation study.
+\newblock {On the Adoption of Kotlin on Android Development: A Triangulation Study}.
 \newblock In {\em 2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER)}, pages 206--216. IEEE, 2020.
 
 \bibitem{flauzino2018you}
 Matheus Flauzino, J{\'u}lio Ver{\'\i}ssimo, Ricardo Terra, Elder Cirilo, Vinicius~HS Durelli, and Rafael~S Durelli.
-\newblock Are you still smelling it? a comparative study between java and kotlin language.
+\newblock {Are You Still Smelling it? A comparative Study Between Java and Kotlin Language}.
 \newblock In {\em Proceedings of the VII Brazilian symposium on software components, architectures, and reuse}, pages 23--32, 2018.
 
 \bibitem{hecht2015detecting}
 Geoffrey Hecht, Romain Rouvoy, Naouel Moha, and Laurence Duchien.
-\newblock Detecting antipatterns in android apps.
+\newblock {Detecting Antipatterns in Android Apps}.
 \newblock In {\em 2015 2nd ACM international conference on mobile software engineering and systems}, pages 148--149. IEEE, 2015.
 
 \bibitem{lamothe2020a3}
 Maxime Lamothe, Weiyi Shang, and Tse-Hsun~Peter Chen.
-\newblock A3: Assisting android api migrations using code examples.
+\newblock {A3: Assisting Android Api Migrations Using Code Examples}.
 \newblock {\em IEEE Transactions on Software Engineering}, 48(2):417--431, 2020.
 
 \bibitem{mamunimproving}
 MAA Mamun, Miroslaw Staron, Christian Berger, Regina Hebig, and J{\"o}rgen Hansson.
-\newblock Improving code smell predictions in continuous integration by differentiating organic from cumulative measures.
+\newblock {Improving Code Smell Predictions in Continuous Integration by Differentiating Organic from Cumulative Measures}.
 \newblock In {\em The Fifth International Conference on Advances and Trends in Software Engineering}, pages 62--71.
 
 \bibitem{marcilio2019static}
 Diego Marcilio, Rodrigo Bonif{\'a}cio, Eduardo Monteiro, Edna Canedo, Welder Luz, and Gustavo Pinto.
-\newblock Are static analysis violations really fixed? a closer look at realistic usage of sonarqube.
+\newblock {Are Static Analysis Violations Really Fixed? a Closer Look at Realistic Usage of Sonarqube}.
 \newblock In {\em 2019 IEEE/ACM 27th International Conference on Program Comprehension (ICPC)}, pages 209--219. IEEE, 2019.
 
 \bibitem{onyenweaku2021sonarqube}
 Ifeanyi~Rowland Onyenweaku, Michael~Scott Brown, Michael Pelosi, and MH~Shahine.
-\newblock A sonarqube static analysis of the spectral workbench.
+\newblock {A Sonarqube Static Analysis of the Spectral Workbench}.
 \newblock {\em International Journal of Natural Science and Reviews}, 6(16):1--15, 2021.
 
 \bibitem{stiernborg2019automated}
 Sebastian Stiernborg.
-\newblock Automated code inspection: Investigating deployment of continuous inspection, 2019.
+\newblock {Automated Code Inspection: Investigating Deployment of Continuous Inspection}, 2019.
 
 \bibitem{soh2016code}
 Z{\'e}phyrin Soh, Aiko Yamashita, Foutse Khomh, and Yann-Ga{\"e}l Gu{\'e}h{\'e}neuc.
-\newblock Do code smells impact the effort of different maintenance programming activities?
+\newblock {Do Code Smells Impact the Effort of Different Maintenance Programming Activities?}
 \newblock In {\em 2016 IEEE 23Rd international conference on software analysis, evolution, and reengineering (SANER)}, volume~1, pages 393--402. IEEE, 2016.
 
 \bibitem{corral2015better}
 Luis Corral and Ilenia Fronza.
-\newblock Better code for better apps: A study on source code quality and market success of android applications.
+\newblock {Better Code for Better Apps: A Study on Source Code Quality and Market Success of Android Applications}.
 \newblock In {\em 2015 2nd ACM International Conference on Mobile Software Engineering and Systems}, pages 22--32. IEEE, 2015.
 
 \bibitem{alkhaeir2020effect}
 Tarek Alkhaeir and Bartosz Walter.
-\newblock The effect of code smells on the relationship between design patterns and defects.
+\newblock {The Effect of Code Smells on the Relationship Between Design Patterns and Defects}.
 \newblock {\em IEEE Access}, 9:3360--3373, 2020.
 
 \bibitem{tufano2015and}
 Michele Tufano, Fabio Palomba, Gabriele Bavota, Rocco Oliveto, Massimiliano Di~Penta, Andrea De~Lucia, and Denys Poshyvanyk.
-\newblock When and why your code starts to smell bad.
+\newblock {When and Why Your Code Starts to Smell Bad}.
 \newblock In {\em 2015 IEEE/ACM 37th IEEE International Conference on Software Engineering}, volume~1, pages 403--414. IEEE, 2015.
 
 \bibitem{han2021understanding}
 Xiaofeng Han, Amjed Tahir, Peng Liang, Steve Counsell, and Yajing Luo.
-\newblock Understanding code smell detection via code review: A study of the openstack community.
+\newblock {Understanding Code Smell Detection via Code Review: A Study of the Openstack Community}.
 \newblock In {\em 2021 IEEE/ACM 29th International Conference on Program Comprehension (ICPC)}, pages 323--334. IEEE, 2021.
 
 \bibitem{cheon2021converting}
 Yoonsik Cheon and Carlos Chavez.
-\newblock Converting android native apps to flutter cross-platform apps.
+\newblock {Converting Android Native Apps to Flutter Cross-Platform Apps}.
 \newblock In {\em 2021 International conference on computational science and computational intelligence (CSCI)}, pages 1898--1904. IEEE, 2021.
 
 \bibitem{nawrocki2021comparison}
 Piotr Nawrocki, Krzysztof Wrona, Mateusz Marczak, and Bartlomiej Sniezynski.
-\newblock A comparison of native and cross-platform frameworks for mobile applications.
+\newblock {A Comparison of Native and Cross-Platform Frameworks for Mobile Applications}.
 \newblock {\em Computer}, 54(3):18--27, 2021.
 
 \bibitem{bloc}
-URL: \url{https://bloclibrary.dev}.
+{Bloc Library}.
+\newblock {Bloc: A Predictable State Management Library for Dart}.
+\newblock \url{https://bloclibrary.dev}, 2024.
+\newblock Accessed: 22-May-2024.
 
 \bibitem{getX}
-URL: \url{https://chornthorn.github.io/getx-docs/}.
+{Thorn Chorn}.
+\newblock {GetX Documentation}.
+\newblock \url{https://chornthorn.github.io/getx-docs/}, 2024.
+\newblock Accessed: 22-May-2024.
 
 \bibitem{provider}
-URL: \url{https://pub.dev/packages/provider}.
+{Remi Rousselet}.
+\newblock {Provider Package}.
+\newblock \url{https://pub.dev/packages/provider}, 2024.
+\newblock Accessed: 22-May-2024.
 
 \bibitem{martin2009clean}
 Robert~C Martin.
-\newblock {\em Clean Code: a Handbook of Agile Software Craftsmanship}.
+\newblock {\em {Clean Code: a Handbook of Agile Software Craftsmanship}}.
 \newblock Pearson Education, 2009.
 
 \bibitem{Sewak_2023}
 Jaykishan Sewak.
-\newblock Mvvm architecture in android using kotlin: A practical guide, Jun 2023.
-\newblock URL: \url{https://medium.com/@jecky999/mvvm-architecture-in-android-using-kotlin-a-practical-guide-73f8de1d9c58}.
+\newblock {MVVM Architecture in Android Using Kotlin: A Practical Guide}.
+\newblock \url{https://medium.com/@jecky999/mvvm-architecture-in-android-using-kotlin-a-practical-guide-73f8de1d9c58}, Jun 2023.
+\newblock Accessed: 22-May-2024.
 
 \bibitem{lenarduzzi2019technical}
 Valentina Lenarduzzi, Nyyti Saarim{\"a}ki, and Davide Taibi.
-\newblock The technical debt dataset.
+\newblock {The Technical Debt Dataset}.
 \newblock In {\em Proceedings of the fifteenth international conference on predictive models and data analytics in software engineering}, pages 2--11, 2019.
 
 \bibitem{tan2021evolution}
 Jie Tan, Daniel Feitosa, Paris Avgeriou, and Mircea Lungu.
-\newblock Evolution of technical debt remediation in python: A case study on the apache software ecosystem.
+\newblock {Evolution of Technical Debt Remediation in Python: A Case Study on the Apache Software Ecosystem}.
 \newblock {\em Journal of Software: Evolution and Process}, 33(4):e2319, 2021.
 
 \bibitem{kawuma2022empirical}
 Simon Kawuma and Evarist Nabaasa.
-\newblock An empirical study of bugs in eclipse stable internal interfaces.
+\newblock {An Empirical Study of Bugs in Eclipse Stable Internal Interfaces}.
 \newblock {\em arXiv preprint arXiv:2203.09134}, 2022.
 
 \bibitem{saborido2022automatizing}
 Rub{\'e}n Saborido, Javier Ferrer, Francisco Chicano, and Enrique Alba.
-\newblock Automatizing software cognitive complexity reduction.
+\newblock {Automatizing Software Cognitive Complexity Reduction}.
 \newblock {\em IEEE Access}, 10:11642--11656, 2022.
 
 \bibitem{tollin2017change}
 Irene Tollin, Francesca~Arcelli Fontana, Marco Zanoni, and Riccardo Roveda.
-\newblock Change prediction through coding rules violations.
+\newblock {Change Prediction Through Coding Rules Violations}.
 \newblock In {\em Proceedings of the 21st international conference on evaluation and assessment in software engineering}, pages 61--64, 2017.
 
 \bibitem{guamansonarqube}
 Daniel Guaman and Paola~Cabrera Barba-Guam{\'a}n.
-\newblock Sonarqube as a tool to identify software metrics and technical debt.
+\newblock {SonarQube as a Tool to Identify Software Metrics and Technical Debt}.
 
 \bibitem{Docker}
-May 2024.
-\newblock URL: \url{https://docker.com}.
+{Docker, Inc.}
+\newblock {Docker Documentation}.
+\newblock \url{https://docs.docker.com/}, 2024.
+\newblock Accessed: 22-May-2024.
 
 \bibitem{flutter_sonar}
 Insideapp-Oss.
-\newblock Github - insideapp-oss/sonar-flutter: Sonarqube plugin for flutter / dart.
-\newblock URL: \url{https://github.com/insideapp-oss/sonar-flutter}.
+\newblock {SonarQube plugin for Flutter / Dart}.
+\newblock \url{https://github.com/insideapp-oss/sonar-flutter}, 2024.
+\newblock Accessed: 22-May-2024.
 
 \bibitem{sonarQube}
-URL: \url{https://docs.sonarsource.com/sonarqube/latest/extension-guide/web-api/}.
+{SonarQube Web API Documentation}.
+\newblock \url{https://docs.sonarsource.com/sonarqube/latest/extension-guide/web-api/}, 2024.
+\newblock Accessed: 22-May-2024.
 
 \end{thebibliography}
