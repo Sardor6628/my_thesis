@@ -139,9 +139,22 @@ The integration of SonarQube into the development process of the Kanban board ap
     \item Running SonarQube Analysis: The Flutter project analysis was initiated with the command sonar-scanner after setting the necessary configurations in the properties file and running tests to generate coverage data.
 \end{enumerate}
 
-\subsubsection{Setting Up an Automated Pipeline for SonarQube Analysis of Open Source Projects}
+\subsection{Setting Up an Automated Pipeline for SonarQube Analysis of Open Source Projects}
 
 In the initial stages of the project, the inclusion of open-source project analysis was not planned. However, after implementing SonarQube into the Kanban board application, it was realized that deriving a statement based on a single project code written by one developer would not be sufficient to claim that one programming language or framework is better. To address this issue, SonarQube was implemented into GitHub open-source projects. A total of 42 open-source projects were selected from GitHub based on the number of forks and stars. With the Kanban board app developed during this research using three languages, the number of projects for analysis was 15 per language (14 open-source and 1 project developed internally). Tables with 15 projects in 3 languages are included in Appendix \ref{app:a}.
+\par
+The selected projects were categorized into different types to ensure a diverse and comprehensive analysis. The categories included:
+\begin{itemize}
+    \item Productivity and Task Management
+    \item Finance and Utility Tools
+    \item Entertainment and Media
+    \item Health and Fitness
+    \item Communication and Social Networking
+    \item Educational and Development Tools
+    \item Security and Privacy
+    \item e-commerce
+\end{itemize}
+This categorization helped in analyzing the projects more effectively based on their specific functionalities and use cases.
 \par
 However, a significant challenge was encountered due to the lengthy process of implementing SonarQube into the Kanban board application. It was noticed that creating a project on the SonarQube Dashboard and configuring data per language would be too time-consuming. Therefore, the intention was to automate processes such as downloading a GitHub project, creating a project in SonarQube, generating a token for the downloaded project, and saving tokens and other project configurations on the downloaded open-source projects. The first step in the automation process was learning about the APIs provided by SonarQube \cite{sonarQube}. The Python script used for this automation is included in Appendix \ref{app:a2}, along with a detailed explanation.
 \par

@@ -18,7 +18,7 @@
 \contentsline {subsubsection}{\numberline {3.3.1}Issue Severity in SonarQube}{30}{}%
 \contentsline {subsubsection}{\numberline {3.3.2}Setting Up SonarQube Environment}{31}{}%
 \contentsline {subsubsection}{\numberline {3.3.3}Applying SonarQube Analysis to the Kanban Board Project}{32}{}%
-\contentsline {subsubsection}{\numberline {3.3.4}Setting Up an Automated Pipeline for SonarQube Analysis of Open Source Projects}{34}{}%
+\contentsline {subsection}{\numberline {3.4}Setting Up an Automated Pipeline for SonarQube Analysis of Open Source Projects}{34}{}%
 \contentsline {section}{\numberline {IV}Results of Comparative Analysis}{36}{}%
 \contentsline {subsection}{\numberline {4.1}Overview}{36}{}%
 \contentsline {subsection}{\numberline {4.2}Results from Identical Application Development}{36}{}%

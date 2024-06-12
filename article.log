@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.3)  23 MAY 2024 13:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.3)  12 JUN 2024 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -921,7 +921,7 @@ Overfull \hbox (41.98154pt too wide) in paragraph at lines 138--139
 []\OT1/cmr/m/n/10.95 Project Con-fig-u-ra-tion for Flut-ter: In the Flut-ter project di-rec-tory, a sonar-project.properties
  []
 
-[33 <./img/sonarqube_dashboard.png>]) [34] [35] (./chapters/results/results.tex [36
+[33 <./img/sonarqube_dashboard.png>] [34]) [35] (./chapters/results/results.tex [36
 
 ] [37]
 <img/JAVASOLO.png, id=168, 698.61pt x 372.39125pt>
@@ -976,8 +976,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--202
  []
 
 [51] [52] [53]) [54] (./chapters/appendix/appendix.tex
+Overfull \hbox (1.51187pt too wide) in paragraph at lines 7--7
+[]|\OT1/cmr/m/n/10.95 KanbanBoardApp| 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / Sardor6628 /
+ []
+
+
+Overfull \hbox (4.09724pt too wide) in paragraph at lines 8--8
+[]|\OT1/cmr/m/n/10.95 CountdownTimer2| 
  []
 
 
@@ -986,13 +996,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\OT1/cmr/m/n/10.95 Easy-Attendance-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / jaikeerthick /
  []
 
 
+Overfull \hbox (5.73975pt too wide) in paragraph at lines 10--10
+[]|\OT1/cmr/m/n/10.95 StopWatchRemade| 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / 0developers /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\OT1/cmr/m/n/10.95 Post-it-Notes-
  []
 
 
@@ -1006,8 +1031,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 
+Overfull \hbox (6.01352pt too wide) in paragraph at lines 13--13
+[]|\OT1/cmr/m/n/10.95 CurrencyConverter| 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / Ch-[]Tima /
+ []
+
+
+Overfull \hbox (3.36725pt too wide) in paragraph at lines 14--14
+[]|\OT1/cmr/m/n/10.95 passwordgenerator| 
  []
 
 
@@ -1051,8 +1086,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 
+Overfull \hbox (45.33763pt too wide) in paragraph at lines 4--24
+ [][] 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / Sardor6628 /
+ []
+
+
+Underfull \hbox (badness 4819) in paragraph at lines 32--32
+[]|\OT1/cmr/m/n/10.95 Communication and So-cial
  []
 
 
@@ -1086,6 +1131,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
  []
 
 
+Overfull \hbox (5.10101pt too wide) in paragraph at lines 39--39
+[]|\OT1/cmr/m/n/10.95 RecurringExpense-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / DennisBauer /
  []
@@ -1093,6 +1143,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 \OT1/cmr/m/n/10.95 RecurringExpenseTracker ? tab =
+ []
+
+
+Underfull \hbox (badness 4819) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/10.95 Communication and So-cial
  []
 
 
@@ -1121,13 +1176,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\OT1/cmr/m/n/10.95 Simple-Voice-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / SimpleMobileTools /
  []
 
 
+Overfull \hbox (45.33763pt too wide) in paragraph at lines 28--47
+ [][] 
+ []
+
+
+Overfull \hbox (1.51187pt too wide) in paragraph at lines 55--55
+[]|\OT1/cmr/m/n/10.95 KanbanBoardApp| 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / Sardor6628 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\OT1/cmr/m/n/10.95 day-night-time-
  []
 
 
@@ -1138,6 +1213,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / mawaqit /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\OT1/cmr/m/n/10.95 Consumer-
  []
 
 
@@ -1152,12 +1232,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 60--60
-[]|\OT1/cmr/m/n/10.95 Flutter-TDD-Clean-
+[]|\OT1/cmr/m/n/10.95 Flutter-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 60--60
-\OT1/cmr/m/n/10.95 Architecture-E-Commerce-
+\OT1/cmr/m/n/10.95 TDD-Clean-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\OT1/cmr/m/n/10.95 Architecture-E-
  []
 
 
@@ -1186,6 +1271,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\OT1/cmr/m/n/10.95 Personal-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / sajitha00 /
  []
@@ -1203,6 +1293,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
 []|$\OT1/cmr/m/n/10.95 https : / / github . com / prateekmedia /
+ []
+
+
+Overfull \hbox (45.33763pt too wide) in paragraph at lines 52--71
+ [][] 
  []
 
 [55
@@ -1266,7 +1361,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  86i,16n,99p,2376b,1891s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on article.pdf (79 pages, 2961473 bytes).
+Output written on article.pdf (79 pages, 2963235 bytes).
 PDF statistics:
  527 PDF objects out of 1000 (max. 8388607)
  324 compressed objects within 4 object streams
