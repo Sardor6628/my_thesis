@@ -5,9 +5,10 @@ Further, the study delves into the implementation of SonarQube across a selectio
 
 \subsection{Results from Identical Application Development}
 Investigating the development of a Kanban board application is an essential part of this research that provides insightful data on the coding efficiency, maintainability, and overall quality of the code produced under different programming languages. In this study, Java, Kotlin, and Dart (Flutter) were utilized to generate identical applications, and the resultant findings provide valuable insights into each programming environment's inherent strengths and weaknesses. 
+\par
+Additionally, three more applications were developed using the same languages to expand the comparative analysis: a BMI Calculator app, a Quiz app, and a Quotes app. The SonarQube analysis results of these applications are presented to offer a broader perspective on code quality across various types of applications.
 \subsubsection{Code Quality Analysis}
-The results of a detailed SonarQube analysis have brought to light significant disparities in the quality and efficiency of code amongst the three languages under scrutiny. As delineated in Table \ref*{tab:kanban}, Kotlin and Dart have demonstrated superior efficiency in coding practices compared to Java. Specifically, Kotlin has been found to require 1,467 lines of code (LOC), while Dart has slightly more, at 1,515 LOC. In contrast, Java has the highest LOC count at 1,748, indicating a higher level of complexity and potentially lower maintainability in its implementation.
-
+The results of a detailed SonarQube analysis have brought to light significant disparities in the quality and efficiency of code amongst the three languages under scrutiny. As delineated in Table \ref*{tab:kanban}, Kotlin and Dart have demonstrated superior efficiency in coding practices compared to Java. Specifically, Kotlin has been found to require 1,467 lines of code (LOC), while Dart has slightly more, at 1,515 LOC. In contrast, Java has the highest LOC count at 1,748, indicating a higher level of complexity and potentially lower maintainability in its implementation. This pattern was also observed in the BMI Calculator app, with Flutter at 418 LOC, Java at 254 LOC, and Kotlin at 269 LOC; the Quiz app, with Flutter at 722 LOC, Java at 550 LOC, and Kotlin at 768 LOC; and the Quotes app, with Flutter at 224 LOC, Java at 95 LOC, and Kotlin at 65 LOC. These additional applications further illustrate the trend of Kotlin and Dart generally producing more concise and maintainable code compared to Java.
 
 \begin{table}[htbp]
 	\begin{tabular}{l|r|r|r|r|r|r|r}
@@ -21,13 +22,47 @@ The results of a detailed SonarQube analysis have brought to light significant d
     \end{tabular}
 	\caption{Severity levels of code smells detected in each language. \label{tab:kanban}}
 \end{table}
+\begin{table}[htbp]
+    \begin{tabular}{l|r|r|r|r|r|r|r}
+        \hline
+        \cellcolor{Gray} & \cellcolor{Gray}Blocker & \cellcolor{Gray}Critical & \cellcolor{Gray}Major & \cellcolor{Gray}Minor & \cellcolor{Gray}Info & \cellcolor{Gray}Total & \cellcolor{Gray}LOC \\
+        \hline
+        \cellcolor{Gray}Flutter & 0 & 2 & 0 & 8 & 0 & 10 & 418 \\
+        \cellcolor{Gray}Java    & 0 & 3 & 1 & 2 & 0 & 6 & 254 \\
+        \cellcolor{Gray}Kotlin  & 0 & 3 & 0 & 0 & 0 & 3 & 269 \\
+    \end{tabular}
+    \caption{Severity levels of code smells detected in each language for BMI Calculator app. \label{tab:bmi}}
+\end{table}
+
+\begin{table}[htbp]
+    \begin{tabular}{l|r|r|r|r|r|r|r}
+        \hline
+        \cellcolor{Gray} & \cellcolor{Gray}Blocker & \cellcolor{Gray}Critical & \cellcolor{Gray}Major & \cellcolor{Gray}Minor & \cellcolor{Gray}Info & \cellcolor{Gray}Total & \cellcolor{Gray}LOC \\
+        \hline
+        \cellcolor{Gray}Flutter & 0 & 1 & 0 & 8 & 0 & 9 & 722 \\
+        \cellcolor{Gray}Java    & 0 & 2 & 2 & 0 & 25 & 22 & 550 \\
+        \cellcolor{Gray}Kotlin  & 0 & 1 & 3 & 16 & 2 & 29 & 768 \\
+    \end{tabular}
+    \caption{Severity levels of code smells detected in each language for Quiz app. \label{tab:quiz}}
+\end{table}
+
+\begin{table}[htbp]
+    \begin{tabular}{l|r|r|r|r|r|r|r}
+        \hline
+        \cellcolor{Gray} & \cellcolor{Gray}Blocker & \cellcolor{Gray}Critical & \cellcolor{Gray}Major & \cellcolor{Gray}Minor & \cellcolor{Gray}Info & \cellcolor{Gray}Total & \cellcolor{Gray}LOC \\
+        \hline
+        \cellcolor{Gray}Flutter & 0 & 0 & 0 & 3 & 0 & 3 & 224 \\
+        \cellcolor{Gray}Java    & 0 & 0 & 5 & 0 & 0 & 5 & 95 \\
+        \cellcolor{Gray}Kotlin  & 0 & 0 & 0 & 0 & 0 & 0 & 65 \\
+    \end{tabular}
+    \caption{Severity levels of code smells detected in each language for Quotes app. \label{tab:quotes}}
+\end{table}
 \par
 Moreover, regarding code smells, Kotlin and Dart have exhibited a similar count of 24 and 22, respectively, signifying a comparable level of code quality between the two. Notably, Dart's codebase has shown no critical issues, implying robustness in security and stability. In contrast, Java's codebase has displayed many code smells, with 16 critical, 22 major, and 35 minor issues, indicating significant quality concerns and the need for more stringent quality control measures.
 \subsubsection{Task Model Implementation}
 The Task model's implementation, detailed in Appendix \ref*{app:TaskResponse}, showcases the differences in LOC required for each language—60 in Java, 17 in Kotlin, and 21 in Dart. Java's higher LOC can be attributed to the need for explicit getter and setter methods, which are not required in Kotlin due to its support for properties. Dart's LOC is less verbose due to its concise syntax. This disparity not only affects the amount of code written but also impacts the clarity and maintainability of the codebase.
 \subsubsection{Application Size and Performance}
-The compiled application APKs for both Java and Kotlin were found to be 11.5 MB in size, while the Flutter application size was 21.2 MB. This size difference can be attributed to the Flutter engine, which is essential for the cross-platform capabilities of Flutter applications. However, the performance testing across the three platforms showed minimal differences, suggesting that the Flutter application's increased size does not adversely affect its performance.
-\subsection{SonarQube Implementation in Open Source Projects}
+The compiled application APKs for both Java and Kotlin were found to be 11.5 MB in size, while the Flutter application size was 21.2 MB. This size difference can be attributed to the Flutter engine, which is essential for the cross-platform capabilities of Flutter applications. However, the performance testing across the three platforms showed minimal differences, suggesting that the Flutter application’s increased size does not adversely affect its performance. This trend continues with the BMI Calculator app, where the Flutter application was 18 MB, compared to 5.5 MB for both Java and Kotlin. The Quiz app showed Flutter at 21.2 MB, with Java and Kotlin each at 7.7 MB. Lastly, the Quotes app had a Flutter size of 18.2 MB, while both Java and Kotlin were at 5.7 MB. These observations confirm that while Flutter applications tend to have larger sizes due to the inclusion of the Flutter engine, this does not necessarily translate to performance drawbacks.\subsection{SonarQube Implementation in Open Source Projects}
 This section presents an in-depth analysis of the results obtained from the SonarQube analysis of various open-source projects developed using Java, Kotlin, and Dart (Flutter). A comparative examination is then conducted to identify and highlight the differences in code quality metrics across these languages. The findings reveal each languages's specific performance in handling code smells, which are presented with accompanying graphs to directly compare their efficacy in maintaining code quality in larger codebases. This academic approach enables readers to understand better the nuances and intricacies associated with each language's code quality and performance.
 \subsubsection{Java Projects Analysis}
 Java projects demonstrated a total Lines of Code (LOC) of 52,901, with 3,590 code smells identified. The distribution of these smells indicates a predominance of Minor code smells, accounting for 65\%, as depicted in Figure \ref{fig:javasolo} and Figure \ref{fig:totalsolo}. Major issues comprised 23.3\% of the smells, pointing to significant areas that could be optimized for better application stability and security. Critical issues were 9.5\%, suggesting crucial vulnerabilities that need immediate attention. Informational and blocker issues were relatively low, at 1.6\% and 0.7\%, respectively.

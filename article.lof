@@ -1,11 +1,11 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Cross-platform mobile frameworks used by software developers worldwide from 2019 to 2022 \cite {jetbrains2022}}}{4}{}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Corral and Fronza's research resulted in a Market Success Model Based on App Store Metrics.}}{16}{}%
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Planned view of Kanban Board Application. Designed Using Figma}}{23}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Flutter version of the application’s project structuring}}{24}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Kotlin version of the application’s project structuring}}{26}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Java version of the application’s project structuring}}{28}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces SonarQube Dashboard Overview: Code Quality Metrics for Kanban Board Projects in Flutter, Kotlin, and Java}}{33}{}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Severity Distribution in Java Projects}}{39}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Severity Distribution in Kotlin Projects}}{40}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Severity Distribution in Dart Projects}}{40}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Severity Distribution of Code Smells Across Languages}}{41}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Flutter version of the application’s project structuring}}{25}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Kotlin version of the application’s project structuring}}{27}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Java version of the application’s project structuring}}{29}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces SonarQube Dashboard Overview: Code Quality Metrics for Kanban Board Projects in Flutter, Kotlin, and Java}}{34}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Severity Distribution in Java Projects}}{41}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Severity Distribution in Kotlin Projects}}{42}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Severity Distribution in Dart Projects}}{42}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Severity Distribution of Code Smells Across Languages}}{43}{}%

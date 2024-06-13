@@ -1,31 +1,54 @@
 \subsection{Overview}
 The following text outlines the comprehensive methodology adopted to conduct a comparative analysis of mobile application development approaches using Java, Kotlin, and Dart. The primary objective of this research is to evaluate and compare the development efficiency, code maintainability, and overall quality of applications developed across these three different programming languages. The methodology is divided into two distinct but interrelated parts to achieve a robust analysis.
 \par
-\textbf{Part I: Identical Mobile Application Development}—This segment focuses on the practical aspect of developing an identical Kanban board application across the three selected programming languages. It involves setting up development environments, detailing the application features and implementation strategies, and standardizing development processes to ensure comparability. This part aims to directly assess the hands-on development experiences and the intrinsic differences in coding practices, development time, and initial code quality among Java, Kotlin, and Flutter.
+\textbf{Part I: Identical Mobile Application Development}—This segment focuses on the practical aspect of developing several identical mobile applications across the three selected programming languages. It involves setting up development environments, detailing the application features and implementation strategies, and standardizing development processes to ensure comparability. This part aims to directly assess the hands-on development experiences and the intrinsic differences in coding practices, development time, and initial code quality among Java, Kotlin, and Flutter.
 \par
 \textbf{Part II: SonarQube Code Inspection and Open Source Projects} - The second part of the methodology utilizes SonarQube, a tool for measuring code quality, to conduct an extensive analysis of existing open-source projects written in Java, Kotlin, and Dart. This includes a detailed setup of the SonarQube environment, a selection of projects based on predefined criteria, and systematic code inspections. The goal is to objectively evaluate and compare code quality in terms of maintainability, prevalence of code smells, and other quality metrics across projects that use these technologies.
 \par
-The dual perspective on software development practices provided by both parts, direct through application development and indirect through analysis of existing codebases, enriches the understanding of each languages's capabilities and limitations and enhances the reliability of the study by cross-verifying findings from practical development with empirical data from broader project analyses.
+The dual perspective on software development practices provided by both parts, direct through application development and indirect through analysis of existing codebases, enriches the understanding of each language's capabilities and limitations and enhances the reliability of the study by cross-verifying findings from practical development with empirical data from broader project analyses.
 \par
 By combining these methodologies, the research aims to deliver insightful conclusions that can guide developers in selecting the most suitable programming language based on empirical evidence and practical experiences. The subsequent sections will detail each part of the methodology, explaining the processes, tools, and criteria used to ensure a thorough and unbiased evaluation of each development approach.
+
 \subsection{Identical Mobile Application Development}
-The present study outlines a methodology for investigating the efficacy of three programming languages, Java, Kotlin, and Dart, by developing an identical Kanban board application. The investigation aims to evaluate each language's development efficiency, usability, and initial code quality. The study provides a comprehensive account of the developmental process followed for each language, ensuring that the functional parity of the application is maintained while adhering to the conversational practices of each programming language.
+The present study outlines a methodology for investigating the efficacy of three programming languages, Java, Kotlin, and Dart, by developing identical mobile applications. The investigation aims to evaluate each language's development efficiency, usability, and initial code quality. The study provides a comprehensive account of the developmental process followed for each language, ensuring that the functional parity of the applications is maintained while adhering to the conversational practices of each programming language.
+
 \subsubsection{Project Planning.}
-The initial phase of our research project involved identifying an appropriate application to develop to assess which language would be best suited for project development and maintenance. The application needed advanced features to achieve this objective while remaining relatively uncomplicated. Initially, an e-commerce application was proposed. However, after careful consideration, it was determined that the backend development required for such an application would be too time-consuming. Consequently, a To-do application was chosen to fulfill the research objectives of identifying a language best suited for application development.
-\par
+The initial phase of our research project involved identifying appropriate applications to develop to assess which language would be best suited for project development and maintenance. The applications needed advanced features to achieve this objective while remaining relatively uncomplicated. Initially, an e-commerce application was proposed. However, after careful consideration, it was determined that the backend development required for such an application would be too time-consuming. Consequently, multiple simpler applications were chosen to fulfill the research objectives of identifying a language best suited for application development.
 
 In the next phase of project development, the features to include and the backend and database to use were meticulously evaluated. After thorough consideration, it was concluded that Firebase is the optimal choice for the backend. This decision was primarily driven by Firebase’s significantly reduced coding effort, thanks to its extensive range of pre-built features that seamlessly integrate into the project. Moreover, Firebase offers two database options—Realtime and Firestore—and Firestore was selected for its superior performance and scalability.
-\par
-Once the database was settled on, a user-centric approach to feature selection was embarked upon. The features that best serve the project’s needs were identified. The following features were chosen:
+
+Once the database was settled on, a user-centric approach to feature selection was embarked upon. The features that best serve the project’s needs were identified for each application. The following applications and their respective features were chosen:
+
 \begin{itemize}
-\item	Kanban Board Visualization: A visually appealing layout representing tasks across stages—to-do, In Progress, and Completed.
-\item	User Account Management includes user registration, login/logout, and the option to log in with Google.  
-\item  	Task Management is adding new tasks, editing and modifying existing tasks, and moving tasks between different stages.
-\item 	Time Tracking: This stopwatch feature allows users to track the time spent on tasks in the \verb|"In Progress"| stage and pause the timer by moving tasks back to the To-Do stage.
-\item 	Export and Share Functionality: Users can export their tasks as a CSV file and share them with others.
-\item   Database Integration: The Firebase database is utilized to store and manage user data and tasks, enabling real-time updates and synchronization across all devices.
+\item \textbf{Kanban Board (Productivity)}:
+\begin{itemize}
+\item User Account Management: User registration, login/logout, and Google login.
+\item Task Management: Adding new tasks, editing existing tasks, and moving tasks between different stages (To-Do, In Progress, Completed).
+\item Time Tracking: Stopwatch feature for tracking time spent on tasks in the "In Progress" stage and pausing the timer by moving tasks back to the To-Do stage.
+\item Export and Share Functionality: Users can export their tasks as a CSV file and share them with others.
+\item Database Integration: Utilizes Firebase to store and manage user data and tasks, enabling real-time updates and synchronization across all devices.
+\end{itemize}
+\item \textbf{BMI Calculator App (Lifestyle)}:
+\begin{itemize}
+\item Calculates BMI based on user input.
+\item Provides health recommendations based on the calculated BMI.
+\item Share results feature for users to share their BMI and recommendations with others.
+\end{itemize}
+\item \textbf{Quiz App (Education)}:
+\begin{itemize}
+\item Categorizes question types.
+\item Includes ten quizzes for users to take.
+\item Checks if the answers are correct and provides feedback.
+\item User name check for personalized quiz experiences.
+\end{itemize}
+\item \textbf{Quotes App (Lifestyle)}:
+\begin{itemize}
+\item Displays a daily quote.
+\item Share feature for users to share their favorite quotes with others.
+\end{itemize}
 \end{itemize}
 
+By developing these varied applications, the study aims to provide a comprehensive evaluation of each programming language's capabilities across different app categories and functionalities.
 \begin{figure}[htbp]
     \centering
     \includegraphics[scale = 0.85]{img/kanban_board.png}
