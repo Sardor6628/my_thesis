@@ -1,42 +1,42 @@
 \contentsline {section}{\numberline {I}Introduction}{1}{}%
 \contentsline {subsection}{\numberline {1.1}Overview of Mobile Application Development}{1}{}%
-\contentsline {subsection}{\numberline {1.2}Study Objectives and Research Questions}{3}{}%
-\contentsline {subsection}{\numberline {1.3}Methodology, Significance, and Structure of Thesis}{6}{}%
-\contentsline {section}{\numberline {II}Literature Review}{8}{}%
-\contentsline {subsection}{\numberline {2.1}Java}{8}{}%
-\contentsline {subsection}{\numberline {2.2}Kotlin}{9}{}%
-\contentsline {subsection}{\numberline {2.3}Dart(Flutter)}{10}{}%
-\contentsline {subsection}{\numberline {2.4}Previous Research}{10}{}%
-\contentsline {section}{\numberline {III}Methodology}{20}{}%
-\contentsline {subsection}{\numberline {3.1}Overview}{20}{}%
-\contentsline {subsection}{\numberline {3.2}Identical Mobile Application Development}{21}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}Project Planning.}{21}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}Flutter Application Development}{24}{}%
-\contentsline {subsubsection}{\numberline {3.2.3}Kotlin Application Development}{26}{}%
-\contentsline {subsubsection}{\numberline {3.2.4}Java Application Development}{28}{}%
-\contentsline {subsection}{\numberline {3.3}SonarQube Code Inspection and Open Source Projects}{30}{}%
-\contentsline {subsubsection}{\numberline {3.3.1}Issue Severity in SonarQube}{31}{}%
-\contentsline {subsubsection}{\numberline {3.3.2}Setting Up SonarQube Environment}{32}{}%
-\contentsline {subsubsection}{\numberline {3.3.3}Applying SonarQube Analysis to the Kanban Board Project}{33}{}%
-\contentsline {subsection}{\numberline {3.4}Setting Up an Automated Pipeline for SonarQube Analysis of Open Source Projects}{35}{}%
-\contentsline {section}{\numberline {IV}Results of Comparative Analysis}{37}{}%
-\contentsline {subsection}{\numberline {4.1}Overview}{37}{}%
-\contentsline {subsection}{\numberline {4.2}Results from Identical Application Development}{37}{}%
-\contentsline {subsubsection}{\numberline {4.2.1}Code Quality Analysis}{38}{}%
-\contentsline {subsubsection}{\numberline {4.2.2}Task Model Implementation}{39}{}%
-\contentsline {subsubsection}{\numberline {4.2.3}Application Size and Performance}{39}{}%
-\contentsline {subsection}{\numberline {4.3}SonarQube Implementation in Open Source Projects}{40}{}%
-\contentsline {subsubsection}{\numberline {4.3.1}Java Projects Analysis}{40}{}%
-\contentsline {subsubsection}{\numberline {4.3.2}Kotlin Project Analysis}{41}{}%
-\contentsline {subsubsection}{\numberline {4.3.3}Flutter Projects Analysis}{41}{}%
-\contentsline {subsubsection}{\numberline {4.3.4}Comparative Graph and Discussion}{43}{}%
-\contentsline {section}{\numberline {V}Discussion}{44}{}%
-\contentsline {subsection}{\numberline {5.1}Interpretation of Results}{44}{}%
-\contentsline {subsection}{\numberline {5.2}Recommendations for Future Development Practices}{45}{}%
-\contentsline {subsection}{\numberline {5.3}Proposed Enhancements for Future Research}{45}{}%
-\contentsline {subsection}{\numberline {5.4}Reflection on Methodological Approaches}{46}{}%
-\contentsline {section}{\numberline {VI}Conclusion}{47}{}%
-\contentsline {section}{\numberline {I}Project Listings for Automated SonarQube Analysis}{58}{}%
-\contentsline {section}{\numberline {II}Python Script for Project Automation and Configuration}{61}{}%
-\contentsline {section}{\numberline {III}Python Script for Data Retrieval and Report Generation}{66}{}%
-\contentsline {section}{\numberline {IV}Implementation Details of Task Models}{70}{}%
+\contentsline {subsection}{\numberline {1.2}Study Objective}{3}{}%
+\contentsline {subsection}{\numberline {1.3}Methodology, Significance, and Structure of Thesis}{5}{}%
+\contentsline {section}{\numberline {II}Literature Review}{7}{}%
+\contentsline {subsection}{\numberline {2.1}Java}{7}{}%
+\contentsline {subsection}{\numberline {2.2}Kotlin}{8}{}%
+\contentsline {subsection}{\numberline {2.3}Dart(Flutter)}{9}{}%
+\contentsline {subsection}{\numberline {2.4}Previous Research}{9}{}%
+\contentsline {section}{\numberline {III}Methodology}{19}{}%
+\contentsline {subsection}{\numberline {3.1}Overview}{19}{}%
+\contentsline {subsection}{\numberline {3.2}Identical Mobile Application Development}{20}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Project Planning.}{20}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Flutter Application Development}{23}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Kotlin Application Development}{25}{}%
+\contentsline {subsubsection}{\numberline {3.2.4}Java Application Development}{27}{}%
+\contentsline {subsection}{\numberline {3.3}SonarQube Code Inspection and Open Source Projects}{29}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Issue Severity in SonarQube}{30}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}Setting Up SonarQube Environment}{31}{}%
+\contentsline {subsubsection}{\numberline {3.3.3}Applying SonarQube Analysis to the Kanban Board Project}{32}{}%
+\contentsline {subsection}{\numberline {3.4}Setting Up an Automated Pipeline for SonarQube Analysis of Open Source Projects}{34}{}%
+\contentsline {section}{\numberline {IV}Results of Comparative Analysis}{36}{}%
+\contentsline {subsection}{\numberline {4.1}Overview}{36}{}%
+\contentsline {subsection}{\numberline {4.2}Results from Identical Application Development}{36}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Code Quality Analysis}{37}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Task Model Implementation}{38}{}%
+\contentsline {subsubsection}{\numberline {4.2.3}Application Size and Performance}{38}{}%
+\contentsline {subsection}{\numberline {4.3}SonarQube Implementation in Open Source Projects}{39}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}Java Projects Analysis}{39}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}Kotlin Project Analysis}{40}{}%
+\contentsline {subsubsection}{\numberline {4.3.3}Flutter Projects Analysis}{40}{}%
+\contentsline {subsubsection}{\numberline {4.3.4}Comparative Graph and Discussion}{42}{}%
+\contentsline {section}{\numberline {V}Discussion}{43}{}%
+\contentsline {subsection}{\numberline {5.1}Interpretation of Results}{43}{}%
+\contentsline {subsection}{\numberline {5.2}Recommendations for Future Development Practices}{44}{}%
+\contentsline {subsection}{\numberline {5.3}Proposed Enhancements for Future Research}{44}{}%
+\contentsline {subsection}{\numberline {5.4}Reflection on Methodological Approaches}{45}{}%
+\contentsline {section}{\numberline {VI}Conclusion}{46}{}%
+\contentsline {section}{\numberline {I}Project Listings for Automated SonarQube Analysis}{57}{}%
+\contentsline {section}{\numberline {II}Python Script for Project Automation and Configuration}{60}{}%
+\contentsline {section}{\numberline {III}Python Script for Data Retrieval and Report Generation}{65}{}%
+\contentsline {section}{\numberline {IV}Implementation Details of Task Models}{69}{}%
